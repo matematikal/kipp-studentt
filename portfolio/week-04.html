@@ -79,6 +79,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -270,17 +299,26 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Di halaman ini</h2>
    
   <ul>
-  <li><a href="#kompetensi-target" id="toc-kompetensi-target" class="nav-link active" data-scroll-target="#kompetensi-target">Kompetensi target</a></li>
-  <li><a href="#evidence-wajib" id="toc-evidence-wajib" class="nav-link" data-scroll-target="#evidence-wajib">Evidence wajib</a></li>
-  <li><a href="#konteks-performance" id="toc-konteks-performance" class="nav-link" data-scroll-target="#konteks-performance">Konteks performance</a></li>
-  <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">Evidence</a></li>
-  <li><a href="#analisis-komunikasi" id="toc-analisis-komunikasi" class="nav-link" data-scroll-target="#analisis-komunikasi">Analisis komunikasi</a></li>
-  <li><a href="#penggunaan-ai" id="toc-penggunaan-ai" class="nav-link" data-scroll-target="#penggunaan-ai">Penggunaan AI</a></li>
-  <li><a href="#feedback-dan-tindak-lanjut" id="toc-feedback-dan-tindak-lanjut" class="nav-link" data-scroll-target="#feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</a></li>
-  <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-assessment</a>
+  <li><a href="#a.-deskripsi-tugas" id="toc-a.-deskripsi-tugas" class="nav-link active" data-scroll-target="#a.-deskripsi-tugas"><strong>A. Deskripsi Tugas</strong></a></li>
+  <li><a href="#b.-identitas-mahasiswa" id="toc-b.-identitas-mahasiswa" class="nav-link" data-scroll-target="#b.-identitas-mahasiswa"><strong>B. Identitas Mahasiswa</strong></a></li>
+  <li><a href="#c.-tahap-1-detoks-jargon-dekonstruksi-konsep" id="toc-c.-tahap-1-detoks-jargon-dekonstruksi-konsep" class="nav-link" data-scroll-target="#c.-tahap-1-detoks-jargon-dekonstruksi-konsep"><strong>C. Tahap 1: Detoks Jargon (Dekonstruksi Konsep)</strong></a></li>
+  <li><a href="#d.-tahap-2-matriks-terjemahan-lima-bahasa" id="toc-d.-tahap-2-matriks-terjemahan-lima-bahasa" class="nav-link" data-scroll-target="#d.-tahap-2-matriks-terjemahan-lima-bahasa"><strong>D. Tahap 2: Matriks Terjemahan Lima Bahasa</strong></a>
   <ul class="collapse">
-  <li><a href="#assessment-dosen" id="toc-assessment-dosen" class="nav-link" data-scroll-target="#assessment-dosen">Assessment dosen</a></li>
+  <li><a href="#ragam-bahasa-anak-anak-usia-10-tahun" id="toc-ragam-bahasa-anak-anak-usia-10-tahun" class="nav-link" data-scroll-target="#ragam-bahasa-anak-anak-usia-10-tahun"><strong>1. Ragam Bahasa: Anak-Anak (Usia ~10 Tahun)</strong></a></li>
+  <li><a href="#ragam-bahasa-sahabat-beda-bidang-program-studi" id="toc-ragam-bahasa-sahabat-beda-bidang-program-studi" class="nav-link" data-scroll-target="#ragam-bahasa-sahabat-beda-bidang-program-studi"><strong>2. Ragam Bahasa: Sahabat (Beda Bidang / Program Studi)</strong></a></li>
+  <li><a href="#ragam-bahasa-rekan-teknis-sesama-ahli-mahasiswa-sejurusan" id="toc-ragam-bahasa-rekan-teknis-sesama-ahli-mahasiswa-sejurusan" class="nav-link" data-scroll-target="#ragam-bahasa-rekan-teknis-sesama-ahli-mahasiswa-sejurusan"><strong>3. Ragam Bahasa: Rekan Teknis (Sesama Ahli / Mahasiswa Sejurusan)</strong></a></li>
+  <li><a href="#ragam-bahasa-manajer-atau-pengambil-keputusan-aspek-bisnis" id="toc-ragam-bahasa-manajer-atau-pengambil-keputusan-aspek-bisnis" class="nav-link" data-scroll-target="#ragam-bahasa-manajer-atau-pengambil-keputusan-aspek-bisnis"><strong>4. Ragam Bahasa: Manajer atau Pengambil Keputusan (Aspek Bisnis)</strong></a></li>
+  <li><a href="#ragam-bahasa-publik-umum-masyarakat-luas" id="toc-ragam-bahasa-publik-umum-masyarakat-luas" class="nav-link" data-scroll-target="#ragam-bahasa-publik-umum-masyarakat-luas"><strong>5. Ragam Bahasa: Publik Umum (Masyarakat Luas)</strong></a></li>
   </ul></li>
+  <li><a href="#e.-tahap-3-refleksi-pembelajaran-intrapribadi" id="toc-e.-tahap-3-refleksi-pembelajaran-intrapribadi" class="nav-link" data-scroll-target="#e.-tahap-3-refleksi-pembelajaran-intrapribadi"><strong>E. Tahap 3: Refleksi Pembelajaran (Intrapribadi)</strong></a></li>
+  <li><a href="#f.-rubrik-evaluasi-mandiri-penilaian-portofolio" id="toc-f.-rubrik-evaluasi-mandiri-penilaian-portofolio" class="nav-link" data-scroll-target="#f.-rubrik-evaluasi-mandiri-penilaian-portofolio"><strong>F. Rubrik Evaluasi Mandiri &amp; Penilaian Portofolio</strong></a>
+  <ul class="collapse">
+  <li><a href="#g.-contoh-pengisian-singkat-sebagai-inspirasi" id="toc-g.-contoh-pengisian-singkat-sebagai-inspirasi" class="nav-link" data-scroll-target="#g.-contoh-pengisian-singkat-sebagai-inspirasi"><strong>G. Contoh Pengisian Singkat (Sebagai Inspirasi)</strong></a></li>
+  </ul></li>
+  <li><a href="#core-meaning" id="toc-core-meaning" class="nav-link" data-scroll-target="#core-meaning">Core meaning</a></li>
+  <li><a href="#evidence-understanding" id="toc-evidence-understanding" class="nav-link" data-scroll-target="#evidence-understanding">Evidence understanding</a></li>
+  <li><a href="#analisis-dan-batas" id="toc-analisis-dan-batas" class="nav-link" data-scroll-target="#analisis-dan-batas">Analisis dan batas</a></li>
+  <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-assessment</a></li>
   </ul>
 </nav>
     </div>
@@ -315,143 +353,272 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="kompetensi-target" class="level2">
-<h2 class="anchored" data-anchor-id="kompetensi-target">Kompetensi target</h2>
-<p>Mengadaptasi repertoire dan language tanpa mengubah core meaning.</p>
+<blockquote class="blockquote">
+<p><strong>Prinsip Utama:</strong> <em>“Jangan pernah mengubah kebenaran agar mudah diterima, melainkan ubahlah cara membawa kebenaran agar dapat dipahami.”</em></p>
+</blockquote>
+<hr>
+<section id="a.-deskripsi-tugas" class="level2">
+<h2 class="anchored" data-anchor-id="a.-deskripsi-tugas"><strong>A. Deskripsi Tugas</strong></h2>
+<p>Salah satu rintangan komunikasi terbesar bagi seorang calon profesional adalah <strong>“Kutukan Pengetahuan” (<em>Curse of Knowledge</em>)</strong>—situasi di mana Anda sangat memahami sebuah konsep rumit, hingga Anda lupa rasanya menjadi orang yang belum mengetahuinya. Akibatnya, Anda cenderung menggunakan istilah teknis (jargon) kaku yang justru menjauhkan gagasan Anda dari pendengar.</p>
+<p>Dalam tugas ini, Anda ditantang untuk melatih <strong>kelenturan register dan alih ragam bahasa (<em>code-switching</em>)</strong>. Anda akan memilih satu konsep teknis dari bidang keilmuan atau program studi Anda, meruntuhkan jargon di dalamnya, lalu menerjemahkan makna inti konsep tersebut ke dalam <strong>lima versi bahasa komunikasi</strong> yang berbeda tanpa mengubah esensi kebenarannya.</p>
+<hr>
 </section>
-<section id="evidence-wajib" class="level2">
-<h2 class="anchored" data-anchor-id="evidence-wajib">Evidence wajib</h2>
+<section id="b.-identitas-mahasiswa" class="level2">
+<h2 class="anchored" data-anchor-id="b.-identitas-mahasiswa"><strong>B. Identitas Mahasiswa</strong></h2>
 <ul>
-<li>Lima versi untuk friend, technical peer, manager, customer, dan public.</li>
-<li>Alasan perubahan language dan repertoire.</li>
-<li>Feedback understanding dari sedikitnya satu target.</li>
+<li><strong>Nama Lengkap:</strong> Muhammad Aquilla Arizqy</li>
+<li><strong>NIM:</strong> 18225017</li>
+<li><strong>Program Studi:</strong> Sistem dan Teknologi Informasi</li>
+<li><strong>Tanggal Pengisian:</strong> 28/09/2026</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Lihat contoh pengisian">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Lihat contoh pengisian
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="../examples/week-04.html">Buka contoh fiktif Minggu 4</a> untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.</p>
-</div>
-</div>
+<hr>
 </section>
-<section id="konteks-performance" class="level2">
-<h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
-<p><strong>Tanggal dan setting:</strong> Ganti dengan tanggal, tempat, dan bentuk kegiatan.</p>
-<p><strong>Persons dan relationship:</strong> Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.</p>
-<p><strong>Objective dan initial state:</strong> Nyatakan perubahan yang ingin dicapai serta evidence state awal.</p>
+<section id="c.-tahap-1-detoks-jargon-dekonstruksi-konsep" class="level2">
+<h2 class="anchored" data-anchor-id="c.-tahap-1-detoks-jargon-dekonstruksi-konsep"><strong>C. Tahap 1: Detoks Jargon (Dekonstruksi Konsep)</strong></h2>
+<p>Sebelum membagikan gagasan Anda, Anda harus mengupas kulit jargon untuk menemukan “sumsum” atau kebenaran inti dari pesan Anda.</p>
+<ol type="1">
+<li><p><strong>Konsep Teknis yang Dipilih:</strong> <em>(Contoh: Enkripsi Kunci Publik, Inflasi Moneter, Replikasi Database, Fotosintesis, dll.)</em> <em>Jawab:</em> Gangguan Akses Sistem (Server Overload &amp; Downtime) pada Layanan Edunex Saat Ujian Tengah Semester (UTS).</p></li>
+<li><p><strong>Definisi Teknis Awal (Versi Buku Teks / Jurnal Ilmiah):</strong> <em>(Tuliskan definisi asli lengkap dengan jargon teknisnya)</em> <em>Jawab:</em> High-traffic spike saat pelaksanaan UTS memicu kondisi resource exhaustion pada server Edunex, menyebabkan layanan mengalami downtime atau unresponsive status. Pemulihan layanan dilakukan dengan eskalasi insiden dari pengawas ke system administrator, diiringi penyesuaian konfigurasi submission deadline tanpa mengubah allocated test duration.</p></li>
+<li><p><strong>Daftar Jargon Teknis &amp; Artian Sederhananya:</strong> <em>Identifikasi minimal 3 istilah rumit dari definisi di atas dan terjemahkan maknanya secara mandiri.</em></p>
+<ul>
+<li><strong>Jargon 1:</strong> <code>High-traffic spike</code> <span class="math inline">\(\rightarrow\)</span> Arti Sederhana: Lonjakan pengguna yang mengakses platform secara bersamaan dalam satu waktu</li>
+<li><strong>Jargon 2:</strong> <code>Server overload / Downtime</code> <span class="math inline">\(\rightarrow\)</span> Arti Sederhana: Server tumbang atau tidak sanggup merespons karena bebannya melebihi kapasitas</li>
+<li><strong>Jargon 3:</strong> <code>Submission deadline extension</code> <span class="math inline">\(\rightarrow\)</span> Arti Sederhana: Perpanjangan batas akhir pengiriman tugas/jawaban, bukan perpanjangan durasi pengerjaan</li>
+</ul></li>
+<li><p><strong>Kebenaran Inti (<em>Marrow of the Message</em>):</strong> <em>(Tuliskan 1 kalimat sangat sederhana yang merangkum apa sebenarnya esensi atau manfaat utama dari konsep ini bagi kehidupan manusia)</em> <em>Jawab:</em> Saat Edunex mengalami down akibat lonjakan pengguna di periode UTS, mahasiswa wajib melaporkan kendala tersebut ke pengawas agar diteruskan ke admin Edunex; durasi jam pengerjaan soal tidak bertambah, namun tenggat waktu pengumpulan jawaban diperpanjang</p></li>
+</ol>
+<hr>
 </section>
-<section id="evidence" class="level2">
-<h2 class="anchored" data-anchor-id="evidence">Evidence</h2>
-<div class="evidence-block">
-<p>Tambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.</p>
-</div>
+<section id="d.-tahap-2-matriks-terjemahan-lima-bahasa" class="level2">
+<h2 class="anchored" data-anchor-id="d.-tahap-2-matriks-terjemahan-lima-bahasa"><strong>D. Tahap 2: Matriks Terjemahan Lima Bahasa</strong></h2>
+<p>Sekarang, bawa kebenaran inti di atas menggunakan “kendaraan” bahasa yang sesuai bagi masing-masing dari lima audiens berikut.</p>
+<section id="ragam-bahasa-anak-anak-usia-10-tahun" class="level3">
+<h3 class="anchored" data-anchor-id="ragam-bahasa-anak-anak-usia-10-tahun"><strong>1. Ragam Bahasa: Anak-Anak (Usia ~10 Tahun)</strong></h3>
+<ul>
+<li><strong>Karakteristik Pendengar:</strong> Menggunakan pemikiran konkret, menyukai imajinasi, memiliki rentang perhatian pendek, dan belum mengenal istilah akademis.</li>
+<li><strong>Strategi:</strong> Gunakan <strong>analogi fisik atau cerita</strong> yang sangat akrab di dunia mereka (seperti mainan, sekolah, atau hewan).</li>
+<li><em>Draf Terjemahan Anda:</em> Bayangkan pintu gerbang sekolah tiba-tiba macet karena semua anak ingin masuk bersamaan saat jam ujian. Kamu cukup lapor ke guru pengawas di depan kelas. Guru akan memberitahu penjaga sekolah untuk memperbaiki pintunya. Jam mengerjakan ujianmu tidak ditambah, tapi guru memberi ekstra waktu untuk mengumpulkan kertas ujianmu agar tidak terlambat</li>
+</ul>
 </section>
-<section id="analisis-komunikasi" class="level2">
-<h2 class="anchored" data-anchor-id="analisis-komunikasi">Analisis komunikasi</h2>
+<section id="ragam-bahasa-sahabat-beda-bidang-program-studi" class="level3">
+<h3 class="anchored" data-anchor-id="ragam-bahasa-sahabat-beda-bidang-program-studi"><strong>2. Ragam Bahasa: Sahabat (Beda Bidang / Program Studi)</strong></h3>
+<ul>
+<li><strong>Karakteristik Pendengar:</strong> Setara dengan Anda secara usia, tetapi tidak memiliki latar belakang keilmuan yang sama. Mereka ingin mengobrol dengan santai tanpa merasa digurui.</li>
+<li><strong>Strategi:</strong> Gunakan gaya bahasa informal, hangat, akrab, dan bersihkan dari istilah akademis yang kaku.</li>
+<li><em>Draf Terjemahan Anda:</em> Santai dulu, Edunex emang lagi down gara-gara semua orang serentak login pas UTS. Langsung kabarin pengawas ujianmu aja biar mereka teruskan ke admin Edunex. Tenang, waktu buat ngerjain soalnya emang enggak nambah, tapi tenggat pengumpulan (submit) jawabannya diulur kok</li>
+</ul>
+</section>
+<section id="ragam-bahasa-rekan-teknis-sesama-ahli-mahasiswa-sejurusan" class="level3">
+<h3 class="anchored" data-anchor-id="ragam-bahasa-rekan-teknis-sesama-ahli-mahasiswa-sejurusan"><strong>3. Ragam Bahasa: Rekan Teknis (Sesama Ahli / Mahasiswa Sejurusan)</strong></h3>
+<ul>
+<li><strong>Karakteristik Pendengar:</strong> Rekan sejawat yang menuntut efisiensi, akurasi tinggi, serta pembuktian logis atau matematis.</li>
+<li><strong>Strategi:</strong> Gunakan jargon teknis yang presisi, singkatan standar industri, parameter spesifik, dan data pendukung.</li>
+<li><em>Draf Terjemahan Anda:</em> Terjadi high-traffic spike saat window UTS yang memicu server overload dan kondisi unresponsive pada Edunex. User harus segera melakukan escalation ticket via pengawas ujian untuk diteruskan ke sysadmin. Langkah mitigasinya adalah submission deadline extension tanpa mengubah allocated test duration</li>
+</ul>
+</section>
+<section id="ragam-bahasa-manajer-atau-pengambil-keputusan-aspek-bisnis" class="level3">
+<h3 class="anchored" data-anchor-id="ragam-bahasa-manajer-atau-pengambil-keputusan-aspek-bisnis"><strong>4. Ragam Bahasa: Manajer atau Pengambil Keputusan (Aspek Bisnis)</strong></h3>
+<ul>
+<li><strong>Karakteristik Pendengar:</strong> Berorientasi pada hasil, efisiensi alokasi sumber daya (waktu, tenaga, biaya), manajemen risiko, dan dampak terhadap tujuan organisasi.</li>
+<li><strong>Strategi:</strong> Tekankan <strong>nilai tambah (<em>value proposition</em>)</strong>, biaya (<em>cost</em>), efisiensi, serta konsekuensi logis jika gagasan ini diterapkan atau diabaikan.</li>
+<li><em>Draf Terjemahan Anda:</em> Kapasitas server Edunex mengalami kendala akibat lonjakan beban bersamaan selama UTS, yang memengaruhi proses pengumpulan jawaban. Prosedur penangannya: pengawas merekap laporan kendala untuk diteruskan ke tim IT/admin Edunex, lalu mengambil kebijakan memperpanjang batas waktu submit tanpa menambah alokasi durasi pengerjaan demi menjaga kelancaran operasional</li>
+</ul>
+</section>
+<section id="ragam-bahasa-publik-umum-masyarakat-luas" class="level3">
+<h3 class="anchored" data-anchor-id="ragam-bahasa-publik-umum-masyarakat-luas"><strong>5. Ragam Bahasa: Publik Umum (Masyarakat Luas)</strong></h3>
+<ul>
+<li><strong>Karakteristik Pendengar:</strong> Masyarakat heterogen yang ingin mengetahui apa dampak langsung atau tidak langsung dari teknologi/konsep ini bagi keselamatan, kemaslahatan, dompet, atau kehidupan sehari-hari mereka.</li>
+<li><strong>Strategi:</strong> Hubungkan konsep dengan nilai-nilai sosial, keadilan, keamanan, kemudahan hidup, dan gunakan bahasa yang inklusif serta mudah dipahami seketika.</li>
+<li><em>Draf Terjemahan Anda:</em> Akses portal Edunex sempat mengalami perlambatan akibat tingginya jumlah pengguna secara bersamaan pada pelaksanaan UTS. Pihak pengelola bersama pengawas ujian telah berkoordinasi untuk menangani kendala tersebut dan memberikan kelonggaran perpanjangan batas waktu pengumpulan jawaban bagi para mahasiswa</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="e.-tahap-3-refleksi-pembelajaran-intrapribadi" class="level2">
+<h2 class="anchored" data-anchor-id="e.-tahap-3-refleksi-pembelajaran-intrapribadi"><strong>E. Tahap 3: Refleksi Pembelajaran (Intrapribadi)</strong></h2>
+<p><em>Evaluasi diri Anda setelah melakukan proses alih ragam bahasa di atas.</em></p>
+<ol type="1">
+<li><p><strong>Ragam bahasa mana yang paling sulit Anda buat? Mengapa?</strong> <em>Jawab:</em> Ragam bahasa untuk pelanggan/mahasiswa pengguna dan publik. Tantangan utamanya adalah memisahkan dengan jelas antara “durasi pengerjaan soal” dan “tenggat pengumpulan jawaban” agar tidak memicu salah paham, tanpa harus menggunakan istilah teknis internal server</p></li>
+<li><p><strong>Bagaimana proses dekonstruksi jargon ini mengubah cara Anda memandang keilmuan Anda sendiri?</strong> <em>Jawab:</em> Proses ini menyadarkan saya bahwa keahlian teknis bukan diukur dari seberapa rumit istilah yang kita gunakan, melainkan seberapa presisi kita menyampaikan hakikat masalah dan solusinya kepada orang yang awam dengan bidang tersebut</p></li>
+<li><p><strong>Catatan Penggunaan AI Kopilot (Jika Ada):</strong> <em>Jika Anda menggunakan AI untuk menguji kelenturan bahasa Anda (misal: meminta AI berperan sebagai anak berusia 10 tahun untuk mengkritik draf Anda), tuliskan instruksi/prompt yang Anda gunakan dan umpan balik berharga apa yang diberikan AI.</em> <em>Jawab:</em> “Uji kelima versi kalimat di atas. Pastikan fakta kunci tidak berubah: Edunex overload saat UTS, alur lapor lewat pengawas ke admin, serta ketegasan bahwa durasi pengerjaan tidak bertambah tetapi tenggat submit diperpanjang.” dan AI sempat memberi saran untuk menambahkan klausa “seluruh ujian akan diulang”. Saran tersebut langsung ditolak dan dihapus karena bertentangan dengan fakta kebijakan resmi yang tidak membatalkan atau mengulang ujian</p></li>
+</ol>
+<hr>
+</section>
+<section id="f.-rubrik-evaluasi-mandiri-penilaian-portofolio" class="level2">
+<h2 class="anchored" data-anchor-id="f.-rubrik-evaluasi-mandiri-penilaian-portofolio"><strong>F. Rubrik Evaluasi Mandiri &amp; Penilaian Portofolio</strong></h2>
+<p>Gunakan rubrik ini untuk menguji kualitas draf Anda sebelum dimasukkan ke dalam Portofolio Komunikasi akhir semester Anda.</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 20%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Elemen</th>
-<th>Evidence dan analisis</th>
+<th style="text-align: left;">Kriteria</th>
+<th style="text-align: left;">Skor 4 (Sangat Baik)</th>
+<th style="text-align: left;">Skor 3 (Baik)</th>
+<th style="text-align: left;">Skor 2 (Cukup)</th>
+<th style="text-align: left;">Skor 1 (Kurang)</th>
+<th style="text-align: center;">Skor Mandiri</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; character</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;"><strong>Keutuhan Makna</strong> <em>(Fidelity)</em></td>
+<td style="text-align: left;">Makna inti konsep sama sekali tidak terdistorsi atau berganti di kelima versi bahasa.</td>
+<td style="text-align: left;">Makna inti terjaga di sebagian besar versi, hanya ada sedikit penyederhanaan yang agak melenceng di versi anak-anak.</td>
+<td style="text-align: left;">Makna inti mulai bergeser di beberapa ragam bahasa demi mengejar kemudahan bahasa.</td>
+<td style="text-align: left;">Makna inti rusak atau berubah total di berbagai ragam bahasa.</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr class="even">
-<td>Objective &amp; state</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;"><strong>Kelenturan Register</strong> <em>(Code-switching)</em></td>
+<td style="text-align: left;">Perbedaan gaya bahasa di antara kelima audiens sangat kontras, konsisten, dan sangat sesuai dengan profil masing-masing.</td>
+<td style="text-align: left;">Perbedaan gaya bahasa terlihat jelas, namun ada beberapa kata/gaya yang masih tumpang tindih antar-audiens.</td>
+<td style="text-align: left;">Gaya bahasa terasa seragam; perbedaan antar-audiens hanya terlihat kosmetis (misal sekadar mengubah sapaan).</td>
+<td style="text-align: left;">Tidak ada upaya menyesuaikan gaya bahasa; semua audiens disuapi dengan gaya bahasa yang sama.</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr class="odd">
-<td>Repertoire &amp; language</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;"><strong>Kualitas Analogi &amp; Penjelasan</strong></td>
+<td style="text-align: left;">Analogi yang digunakan sangat kreatif, segar, akurat, dan langsung membuat konsep mudah dipahami seketika.</td>
+<td style="text-align: left;">Analogi yang digunakan cukup baik dan relevan, meski masih butuh sedikit penjelasan tambahan untuk memperjelasnya.</td>
+<td style="text-align: left;">Analogi yang digunakan kurang pas atau justru berisiko membingungkan audiens.</td>
+<td style="text-align: left;">Tidak menggunakan analogi sama sekali pada ragam bahasa yang membutuhkan (Anak/Publik).</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr class="even">
-<td>Response &amp; adaptation</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;"><strong>Kedalaman Refleksi</strong></td>
+<td style="text-align: left;">Refleksi sangat jujur, mendalam, mampu mengidentifikasi bias batin diri, dan merumuskan sasaran pertumbuhan yang jelas.</td>
+<td style="text-align: left;">Refleksi cukup deskriptif dalam menceritakan kesulitan, namun belum menggali alasan personal di balik kesulitan tersebut.</td>
+<td style="text-align: left;">Refleksi sangat singkat, bersifat normatif, dan tidak memberikan wawasan baru bagi perkembangan diri Anda.</td>
+<td style="text-align: left;">Bagian refleksi tidak diisi atau hanya diisi sekadarnya (kurang dari 2 kalimat).</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr class="odd">
-<td>Agreement/action</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;"><strong>Total Skor (Maksimal 16)</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"><strong>___ / 16</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<section id="g.-contoh-pengisian-singkat-sebagai-inspirasi" class="level3">
+<h3 class="anchored" data-anchor-id="g.-contoh-pengisian-singkat-sebagai-inspirasi"><strong>G. Contoh Pengisian Singkat (Sebagai Inspirasi)</strong></h3>
+<ul>
+<li><strong>Konsep:</strong> <em>Database Replication (Replikasi Basis Data)</em></li>
+<li><strong>Kebenaran Inti:</strong> Menyalin dan menyimpan data yang sama di beberapa komputer berbeda secara otomatis agar jika satu komputer rusak, data kita tetap aman dan aplikasi tidak mati.</li>
+<li><strong>Terjemahan Ragam Anak-Anak:</strong> <em>“Bayangkan kamu punya buku gambar kesayangan. Karena takut bukunya hilang atau ketumpahan air, kamu meminta mesin ajaib untuk menyalin gambar yang sama ke buku gambar teman-temanmu secara otomatis. Jadi, kalau buku gambarmu basah, kamu tinggal pinjam buku milik temanmu dan bisa lanjut mewarnai tanpa sedih!”</em></li>
+<li><strong>Terjemahan Ragam Manajer:</strong> <em>“Untuk menjamin kelangsungan operasional bisnis dan meminimalkan risiko downtime akibat kegagalan server tunggal, kita menerapkan replikasi data ke wilayah sekunder. Hal ini memastikan pemulihan bencana (disaster recovery) berjalan instan dengan toleransi kehilangan data mendekati nol, sehingga transaksi pelanggan tidak terganggu.”</em></li>
+</ul>
+</section>
+</section>
+<section id="core-meaning" class="level2">
+<h2 class="anchored" data-anchor-id="core-meaning">Core meaning</h2>
+<p><strong>Fakta yang tidak boleh berubah:</strong> Edunex mengalami <em>overload/down</em> saat UTS berlangsung sehingga mahasiswa mengalami kendala akses/unggah. Pengguna harus melapor ke pengawas ujian, yang kemudian meneruskan masalah ini ke tim pengelola/admin Edunex. Waktu pengerjaan tidak ditambah, namun tenggat pengiriman/submit diperpanjang.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Target/character</th>
+<th>Versi language</th>
+<th>Alasan adaptasi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Friend</td>
+<td>“Edunex lagi down nih gara-gara overload UTS. Langsung kabarin pengawas ujianmu aja biar dilaporin ke admin Edunex. Tenang, waktu pengerjaan emang ga nambah tapi waktu submit-nya diperpanjang kok!”</td>
+<td>Ringkas, santai, menenangkan, dan memberikan langkah praktis langsung.</td>
 </tr>
 <tr class="even">
-<td>Relationship outcome</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Technical peer</td>
+<td>“High-traffic spike saat UTS menyebabkan server Edunex overload/unresponsive. User diminta escalate ticket/laporan via pengawas untuk dilanjutkan ke sysadmin Edunex. Submission deadline diperpanjang tanpa mengubah durasi pengerjaan.”</td>
+<td>Menggunakan terminologi teknis (<em>traffic spike</em>, <em>sysadmin</em>, <em>submission deadline</em>) untuk menjelaskan akar masalah dan mitigasi.</td>
+</tr>
+<tr class="odd">
+<td>Manager</td>
+<td>“Overload server Edunex saat UTS berdampak pada kelancaran pengumpulan jawaban mahasiswa. Prosedur mitigasi: pengawas merekap laporan kendala ke tim IT/admin Edunex dan memperpanjang batas waktu submit mahasiswa.”</td>
+<td>Berfokus pada dampak operasional, mekanisme penanganan berjenjang, dan solusi manajemen risiko.</td>
+</tr>
+<tr class="even">
+<td>Customer/student user</td>
+<td>“Jika Anda mengalami kendala akses Edunex akibat server overload saat UTS, harap segera laporkan ke pengawas ujian Anda. Pengawas akan meneruskan laporan ke admin Edunex. Waktu pengerjaan tidak bertambah, namun tenggat submit diperpanjang.”</td>
+<td>Jelas, berfokus pada aksi yang harus dilakukan mahasiswa tanpa beban istilah teknis internal.</td>
+</tr>
+<tr class="odd">
+<td>Public</td>
+<td>“Layanan portal Edunex sempat mengalami kendala akses akibat peningkatan trafik saat periode UTS. Penanganan dilakukan bersama pengawas dan tim pengelola Edunex dengan perpanjangan batas pengumpulan jawaban.”</td>
+<td>Bersifat informatif umum, menjaga reputasi, dan mengarahkan pada solusi tanpa membagikan log internal.</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="penggunaan-ai" class="level2">
-<h2 class="anchored" data-anchor-id="penggunaan-ai">Penggunaan AI</h2>
-<p>Nyatakan <code>Tidak menggunakan AI</code> atau jelaskan:</p>
-<ul>
-<li>alat dan peran AI;</li>
-<li>prompt atau instruksi penting;</li>
-<li>bagian output yang digunakan, diubah, atau ditolak;</li>
-<li>pemeriksaan accuracy, privacy, dan authority;</li>
-<li>apa yang tetap Anda pelajari sebagai manusia.</li>
-</ul>
+<section id="evidence-understanding" class="level2">
+<h2 class="anchored" data-anchor-id="evidence-understanding">Evidence understanding</h2>
+<p>Uji coba dilakukan terhadap versi <em>Customer/student user</em> kepada salah satu mahasiswa yang sedang mengikuti UTS. Pengujian langsung dilakukan menggunakan draf versi Pelanggan/Mahasiswa (Student User) kepada salah satu mahasiswa peserta UTS. Secara umum, ia langsung memahami instruksi utama untuk melapor kepada pengawas apabila terjadi kendala pada Edunex. Namun, muncul pertanyaan krusial dari responden: <em>“Apakah kalau Edunex down, alokasi jam pengerjaan soal saya otomatis bertambah?”</em></p>
+<p>Diberikan penjelasan tambahan: <em>“Waktu pengerjaan soal tidak ditambah, namun waktu/tenggat submit diperpanjang.”</em> Adaptasi ini memperjelas kondisi dan batasan tanpa mengubah core meaning awal.</p>
 </section>
-<section id="feedback-dan-tindak-lanjut" class="level2">
-<h2 class="anchored" data-anchor-id="feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</h2>
-<p><strong>Feedback yang diterima:</strong> Ganti dengan kutipan atau ringkasan berbasis evidence.</p>
-<p><strong>Adaptation/replay:</strong> Jelaskan apa yang Anda ubah dan response setelah perubahan.</p>
-<p><strong>Next practice:</strong> Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.</p>
+<section id="analisis-dan-batas" class="level2">
+<h2 class="anchored" data-anchor-id="analisis-dan-batas">Analisis dan batas</h2>
+<p>Keragaman register <em>(repertoire)</em> disesuaikan secara cermat dengan profil tiap audiens—mulai dari gaya obrolan santai antarteman, istilah teknis yang presisi untuk rekan sejawat, bahasa formal berorientasi manajemen, panduan praktis untuk mahasiswa, hingga penyampaian resmi yang menenangkan bagi publik umum.</p>
+<p>Saran alternatif dari AI yang menyarankan penambahan opsi <em>“seluruh ujian akan diulang”</em> secara tegas ditolak dan dieleminasi, karena tidak sesuai dengan fakta di lapangan serta berpotensi melanggar kebijakan resmi instansi</p>
 </section>
 <section id="self-assessment" class="level2">
 <h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 40%">
+<col style="width: 30%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Dimensi</th>
-<th style="text-align: right;">Skor 1–4</th>
+<th style="text-align: right;">Skor</th>
 <th>Evidence singkat</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Person &amp; Character</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">3</td>
+<td>Profil kelima audiens berhasil dibedakan melalui gaya bahasa, sudut pandang, dan tingkat kedalaman informasi yang relevan</td>
 </tr>
 <tr class="even">
 <td>Objective &amp; State</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">3</td>
+<td>Informasi inti (core facts) serta langkah taktis yang harus diambil pengguna tersampaikan secara konsisten di semua ragam bahasa</td>
 </tr>
 <tr class="odd">
 <td>Repertoire, Language &amp; AI</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td>Menguasai lima register bahasa yang kontras, dilengkapi alasan adaptasi yang rasional, serta bersikap kritis dalam menyaring masukan AI</td>
 </tr>
 <tr class="even">
 <td>Response &amp; Adaptation</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td>Tanggap terhadap umpan balik penguji melalui klarifikasi langsung mengenai perbedaan durasi pengerjaan vs tenggat submit</td>
 </tr>
 <tr class="odd">
 <td>Agreement, Action &amp; Relationship</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">3</td>
+<td>Alur instruksi pelaporan ke pengawas dan keputusan perpanjangan waktu pengumpulan tersampaikan dengan tegas dan persuasif</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Total:</strong> — / 20</p>
-<section id="assessment-dosen" class="level3 assessor-only">
-<h3 class="anchored" data-anchor-id="assessment-dosen">Assessment dosen</h3>
-<p><strong>Skor:</strong> — / 20<br>
-<strong>Evidence yang mendukung:</strong> —<br>
-<strong>Prioritas perbaikan:</strong> —<br>
-<strong>Keputusan:</strong> Belum dinilai / Perlu revisi / Tercapai</p>
-</section>
+<p><strong>Total: 17/20 — Kompeten.</strong></p>
 
 
 </section>

@@ -1619,84 +1619,106 @@
     "href": "portfolio/week-04.html",
     "title": "Five-Language Translation Portfolio",
     "section": "",
-    "text": "Mengadaptasi repertoire dan language tanpa mengubah core meaning.",
+    "text": "Prinsip Utama: “Jangan pernah mengubah kebenaran agar mudah diterima, melainkan ubahlah cara membawa kebenaran agar dapat dipahami.”",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
     ]
   },
   {
-    "objectID": "portfolio/week-04.html#kompetensi-target",
-    "href": "portfolio/week-04.html#kompetensi-target",
+    "objectID": "portfolio/week-04.html#a.-deskripsi-tugas",
+    "href": "portfolio/week-04.html#a.-deskripsi-tugas",
     "title": "Five-Language Translation Portfolio",
-    "section": "",
-    "text": "Mengadaptasi repertoire dan language tanpa mengubah core meaning.",
+    "section": "A. Deskripsi Tugas",
+    "text": "A. Deskripsi Tugas\nSalah satu rintangan komunikasi terbesar bagi seorang calon profesional adalah “Kutukan Pengetahuan” (Curse of Knowledge)—situasi di mana Anda sangat memahami sebuah konsep rumit, hingga Anda lupa rasanya menjadi orang yang belum mengetahuinya. Akibatnya, Anda cenderung menggunakan istilah teknis (jargon) kaku yang justru menjauhkan gagasan Anda dari pendengar.\nDalam tugas ini, Anda ditantang untuk melatih kelenturan register dan alih ragam bahasa (code-switching). Anda akan memilih satu konsep teknis dari bidang keilmuan atau program studi Anda, meruntuhkan jargon di dalamnya, lalu menerjemahkan makna inti konsep tersebut ke dalam lima versi bahasa komunikasi yang berbeda tanpa mengubah esensi kebenarannya.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
     ]
   },
   {
-    "objectID": "portfolio/week-04.html#evidence-wajib",
-    "href": "portfolio/week-04.html#evidence-wajib",
+    "objectID": "portfolio/week-04.html#b.-identitas-mahasiswa",
+    "href": "portfolio/week-04.html#b.-identitas-mahasiswa",
     "title": "Five-Language Translation Portfolio",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nLima versi untuk friend, technical peer, manager, customer, dan public.\nAlasan perubahan language dan repertoire.\nFeedback understanding dari sedikitnya satu target.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 4 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "section": "B. Identitas Mahasiswa",
+    "text": "B. Identitas Mahasiswa\n\nNama Lengkap: Muhammad Aquilla Arizqy\nNIM: 18225017\nProgram Studi: Sistem dan Teknologi Informasi\nTanggal Pengisian: 28/09/2026",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
     ]
   },
   {
-    "objectID": "portfolio/week-04.html#konteks-performance",
-    "href": "portfolio/week-04.html#konteks-performance",
+    "objectID": "portfolio/week-04.html#c.-tahap-1-detoks-jargon-dekonstruksi-konsep",
+    "href": "portfolio/week-04.html#c.-tahap-1-detoks-jargon-dekonstruksi-konsep",
     "title": "Five-Language Translation Portfolio",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "C. Tahap 1: Detoks Jargon (Dekonstruksi Konsep)",
+    "text": "C. Tahap 1: Detoks Jargon (Dekonstruksi Konsep)\nSebelum membagikan gagasan Anda, Anda harus mengupas kulit jargon untuk menemukan “sumsum” atau kebenaran inti dari pesan Anda.\n\nKonsep Teknis yang Dipilih: (Contoh: Enkripsi Kunci Publik, Inflasi Moneter, Replikasi Database, Fotosintesis, dll.) Jawab: Gangguan Akses Sistem (Server Overload & Downtime) pada Layanan Edunex Saat Ujian Tengah Semester (UTS).\nDefinisi Teknis Awal (Versi Buku Teks / Jurnal Ilmiah): (Tuliskan definisi asli lengkap dengan jargon teknisnya) Jawab: High-traffic spike saat pelaksanaan UTS memicu kondisi resource exhaustion pada server Edunex, menyebabkan layanan mengalami downtime atau unresponsive status. Pemulihan layanan dilakukan dengan eskalasi insiden dari pengawas ke system administrator, diiringi penyesuaian konfigurasi submission deadline tanpa mengubah allocated test duration.\nDaftar Jargon Teknis & Artian Sederhananya: Identifikasi minimal 3 istilah rumit dari definisi di atas dan terjemahkan maknanya secara mandiri.\n\nJargon 1: High-traffic spike \\(\\rightarrow\\) Arti Sederhana: Lonjakan pengguna yang mengakses platform secara bersamaan dalam satu waktu\nJargon 2: Server overload / Downtime \\(\\rightarrow\\) Arti Sederhana: Server tumbang atau tidak sanggup merespons karena bebannya melebihi kapasitas\nJargon 3: Submission deadline extension \\(\\rightarrow\\) Arti Sederhana: Perpanjangan batas akhir pengiriman tugas/jawaban, bukan perpanjangan durasi pengerjaan\n\nKebenaran Inti (Marrow of the Message): (Tuliskan 1 kalimat sangat sederhana yang merangkum apa sebenarnya esensi atau manfaat utama dari konsep ini bagi kehidupan manusia) Jawab: Saat Edunex mengalami down akibat lonjakan pengguna di periode UTS, mahasiswa wajib melaporkan kendala tersebut ke pengawas agar diteruskan ke admin Edunex; durasi jam pengerjaan soal tidak bertambah, namun tenggat waktu pengumpulan jawaban diperpanjang",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
     ]
   },
   {
-    "objectID": "portfolio/week-04.html#evidence",
-    "href": "portfolio/week-04.html#evidence",
+    "objectID": "portfolio/week-04.html#d.-tahap-2-matriks-terjemahan-lima-bahasa",
+    "href": "portfolio/week-04.html#d.-tahap-2-matriks-terjemahan-lima-bahasa",
     "title": "Five-Language Translation Portfolio",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "section": "D. Tahap 2: Matriks Terjemahan Lima Bahasa",
+    "text": "D. Tahap 2: Matriks Terjemahan Lima Bahasa\nSekarang, bawa kebenaran inti di atas menggunakan “kendaraan” bahasa yang sesuai bagi masing-masing dari lima audiens berikut.\n\n1. Ragam Bahasa: Anak-Anak (Usia ~10 Tahun)\n\nKarakteristik Pendengar: Menggunakan pemikiran konkret, menyukai imajinasi, memiliki rentang perhatian pendek, dan belum mengenal istilah akademis.\nStrategi: Gunakan analogi fisik atau cerita yang sangat akrab di dunia mereka (seperti mainan, sekolah, atau hewan).\nDraf Terjemahan Anda: Bayangkan pintu gerbang sekolah tiba-tiba macet karena semua anak ingin masuk bersamaan saat jam ujian. Kamu cukup lapor ke guru pengawas di depan kelas. Guru akan memberitahu penjaga sekolah untuk memperbaiki pintunya. Jam mengerjakan ujianmu tidak ditambah, tapi guru memberi ekstra waktu untuk mengumpulkan kertas ujianmu agar tidak terlambat\n\n\n\n2. Ragam Bahasa: Sahabat (Beda Bidang / Program Studi)\n\nKarakteristik Pendengar: Setara dengan Anda secara usia, tetapi tidak memiliki latar belakang keilmuan yang sama. Mereka ingin mengobrol dengan santai tanpa merasa digurui.\nStrategi: Gunakan gaya bahasa informal, hangat, akrab, dan bersihkan dari istilah akademis yang kaku.\nDraf Terjemahan Anda: Santai dulu, Edunex emang lagi down gara-gara semua orang serentak login pas UTS. Langsung kabarin pengawas ujianmu aja biar mereka teruskan ke admin Edunex. Tenang, waktu buat ngerjain soalnya emang enggak nambah, tapi tenggat pengumpulan (submit) jawabannya diulur kok\n\n\n\n3. Ragam Bahasa: Rekan Teknis (Sesama Ahli / Mahasiswa Sejurusan)\n\nKarakteristik Pendengar: Rekan sejawat yang menuntut efisiensi, akurasi tinggi, serta pembuktian logis atau matematis.\nStrategi: Gunakan jargon teknis yang presisi, singkatan standar industri, parameter spesifik, dan data pendukung.\nDraf Terjemahan Anda: Terjadi high-traffic spike saat window UTS yang memicu server overload dan kondisi unresponsive pada Edunex. User harus segera melakukan escalation ticket via pengawas ujian untuk diteruskan ke sysadmin. Langkah mitigasinya adalah submission deadline extension tanpa mengubah allocated test duration\n\n\n\n4. Ragam Bahasa: Manajer atau Pengambil Keputusan (Aspek Bisnis)\n\nKarakteristik Pendengar: Berorientasi pada hasil, efisiensi alokasi sumber daya (waktu, tenaga, biaya), manajemen risiko, dan dampak terhadap tujuan organisasi.\nStrategi: Tekankan nilai tambah (value proposition), biaya (cost), efisiensi, serta konsekuensi logis jika gagasan ini diterapkan atau diabaikan.\nDraf Terjemahan Anda: Kapasitas server Edunex mengalami kendala akibat lonjakan beban bersamaan selama UTS, yang memengaruhi proses pengumpulan jawaban. Prosedur penangannya: pengawas merekap laporan kendala untuk diteruskan ke tim IT/admin Edunex, lalu mengambil kebijakan memperpanjang batas waktu submit tanpa menambah alokasi durasi pengerjaan demi menjaga kelancaran operasional\n\n\n\n5. Ragam Bahasa: Publik Umum (Masyarakat Luas)\n\nKarakteristik Pendengar: Masyarakat heterogen yang ingin mengetahui apa dampak langsung atau tidak langsung dari teknologi/konsep ini bagi keselamatan, kemaslahatan, dompet, atau kehidupan sehari-hari mereka.\nStrategi: Hubungkan konsep dengan nilai-nilai sosial, keadilan, keamanan, kemudahan hidup, dan gunakan bahasa yang inklusif serta mudah dipahami seketika.\nDraf Terjemahan Anda: Akses portal Edunex sempat mengalami perlambatan akibat tingginya jumlah pengguna secara bersamaan pada pelaksanaan UTS. Pihak pengelola bersama pengawas ujian telah berkoordinasi untuk menangani kendala tersebut dan memberikan kelonggaran perpanjangan batas waktu pengumpulan jawaban bagi para mahasiswa",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
     ]
   },
   {
-    "objectID": "portfolio/week-04.html#analisis-komunikasi",
-    "href": "portfolio/week-04.html#analisis-komunikasi",
+    "objectID": "portfolio/week-04.html#e.-tahap-3-refleksi-pembelajaran-intrapribadi",
+    "href": "portfolio/week-04.html#e.-tahap-3-refleksi-pembelajaran-intrapribadi",
     "title": "Five-Language Translation Portfolio",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
+    "section": "E. Tahap 3: Refleksi Pembelajaran (Intrapribadi)",
+    "text": "E. Tahap 3: Refleksi Pembelajaran (Intrapribadi)\nEvaluasi diri Anda setelah melakukan proses alih ragam bahasa di atas.\n\nRagam bahasa mana yang paling sulit Anda buat? Mengapa? Jawab: Ragam bahasa untuk pelanggan/mahasiswa pengguna dan publik. Tantangan utamanya adalah memisahkan dengan jelas antara “durasi pengerjaan soal” dan “tenggat pengumpulan jawaban” agar tidak memicu salah paham, tanpa harus menggunakan istilah teknis internal server\nBagaimana proses dekonstruksi jargon ini mengubah cara Anda memandang keilmuan Anda sendiri? Jawab: Proses ini menyadarkan saya bahwa keahlian teknis bukan diukur dari seberapa rumit istilah yang kita gunakan, melainkan seberapa presisi kita menyampaikan hakikat masalah dan solusinya kepada orang yang awam dengan bidang tersebut\nCatatan Penggunaan AI Kopilot (Jika Ada): Jika Anda menggunakan AI untuk menguji kelenturan bahasa Anda (misal: meminta AI berperan sebagai anak berusia 10 tahun untuk mengkritik draf Anda), tuliskan instruksi/prompt yang Anda gunakan dan umpan balik berharga apa yang diberikan AI. Jawab: “Uji kelima versi kalimat di atas. Pastikan fakta kunci tidak berubah: Edunex overload saat UTS, alur lapor lewat pengawas ke admin, serta ketegasan bahwa durasi pengerjaan tidak bertambah tetapi tenggat submit diperpanjang.” dan AI sempat memberi saran untuk menambahkan klausa “seluruh ujian akan diulang”. Saran tersebut langsung ditolak dan dihapus karena bertentangan dengan fakta kebijakan resmi yang tidak membatalkan atau mengulang ujian",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
     ]
   },
   {
-    "objectID": "portfolio/week-04.html#penggunaan-ai",
-    "href": "portfolio/week-04.html#penggunaan-ai",
+    "objectID": "portfolio/week-04.html#f.-rubrik-evaluasi-mandiri-penilaian-portofolio",
+    "href": "portfolio/week-04.html#f.-rubrik-evaluasi-mandiri-penilaian-portofolio",
     "title": "Five-Language Translation Portfolio",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
+    "section": "F. Rubrik Evaluasi Mandiri & Penilaian Portofolio",
+    "text": "F. Rubrik Evaluasi Mandiri & Penilaian Portofolio\nGunakan rubrik ini untuk menguji kualitas draf Anda sebelum dimasukkan ke dalam Portofolio Komunikasi akhir semester Anda.\n\n\n\n\n\n\n\n\n\n\n\nKriteria\nSkor 4 (Sangat Baik)\nSkor 3 (Baik)\nSkor 2 (Cukup)\nSkor 1 (Kurang)\nSkor Mandiri\n\n\n\n\nKeutuhan Makna (Fidelity)\nMakna inti konsep sama sekali tidak terdistorsi atau berganti di kelima versi bahasa.\nMakna inti terjaga di sebagian besar versi, hanya ada sedikit penyederhanaan yang agak melenceng di versi anak-anak.\nMakna inti mulai bergeser di beberapa ragam bahasa demi mengejar kemudahan bahasa.\nMakna inti rusak atau berubah total di berbagai ragam bahasa.\n\n\n\nKelenturan Register (Code-switching)\nPerbedaan gaya bahasa di antara kelima audiens sangat kontras, konsisten, dan sangat sesuai dengan profil masing-masing.\nPerbedaan gaya bahasa terlihat jelas, namun ada beberapa kata/gaya yang masih tumpang tindih antar-audiens.\nGaya bahasa terasa seragam; perbedaan antar-audiens hanya terlihat kosmetis (misal sekadar mengubah sapaan).\nTidak ada upaya menyesuaikan gaya bahasa; semua audiens disuapi dengan gaya bahasa yang sama.\n\n\n\nKualitas Analogi & Penjelasan\nAnalogi yang digunakan sangat kreatif, segar, akurat, dan langsung membuat konsep mudah dipahami seketika.\nAnalogi yang digunakan cukup baik dan relevan, meski masih butuh sedikit penjelasan tambahan untuk memperjelasnya.\nAnalogi yang digunakan kurang pas atau justru berisiko membingungkan audiens.\nTidak menggunakan analogi sama sekali pada ragam bahasa yang membutuhkan (Anak/Publik).\n\n\n\nKedalaman Refleksi\nRefleksi sangat jujur, mendalam, mampu mengidentifikasi bias batin diri, dan merumuskan sasaran pertumbuhan yang jelas.\nRefleksi cukup deskriptif dalam menceritakan kesulitan, namun belum menggali alasan personal di balik kesulitan tersebut.\nRefleksi sangat singkat, bersifat normatif, dan tidak memberikan wawasan baru bagi perkembangan diri Anda.\nBagian refleksi tidak diisi atau hanya diisi sekadarnya (kurang dari 2 kalimat).\n\n\n\nTotal Skor (Maksimal 16)\n\n\n\n\n___ / 16\n\n\n\n\n\nG. Contoh Pengisian Singkat (Sebagai Inspirasi)\n\nKonsep: Database Replication (Replikasi Basis Data)\nKebenaran Inti: Menyalin dan menyimpan data yang sama di beberapa komputer berbeda secara otomatis agar jika satu komputer rusak, data kita tetap aman dan aplikasi tidak mati.\nTerjemahan Ragam Anak-Anak: “Bayangkan kamu punya buku gambar kesayangan. Karena takut bukunya hilang atau ketumpahan air, kamu meminta mesin ajaib untuk menyalin gambar yang sama ke buku gambar teman-temanmu secara otomatis. Jadi, kalau buku gambarmu basah, kamu tinggal pinjam buku milik temanmu dan bisa lanjut mewarnai tanpa sedih!”\nTerjemahan Ragam Manajer: “Untuk menjamin kelangsungan operasional bisnis dan meminimalkan risiko downtime akibat kegagalan server tunggal, kita menerapkan replikasi data ke wilayah sekunder. Hal ini memastikan pemulihan bencana (disaster recovery) berjalan instan dengan toleransi kehilangan data mendekati nol, sehingga transaksi pelanggan tidak terganggu.”",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
     ]
   },
   {
-    "objectID": "portfolio/week-04.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-04.html#feedback-dan-tindak-lanjut",
+    "objectID": "portfolio/week-04.html#core-meaning",
+    "href": "portfolio/week-04.html#core-meaning",
     "title": "Five-Language Translation Portfolio",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "Core meaning",
+    "text": "Core meaning\nFakta yang tidak boleh berubah: Edunex mengalami overload/down saat UTS berlangsung sehingga mahasiswa mengalami kendala akses/unggah. Pengguna harus melapor ke pengawas ujian, yang kemudian meneruskan masalah ini ke tim pengelola/admin Edunex. Waktu pengerjaan tidak ditambah, namun tenggat pengiriman/submit diperpanjang.\n\n\n\n\n\n\n\n\nTarget/character\nVersi language\nAlasan adaptasi\n\n\n\n\nFriend\n“Edunex lagi down nih gara-gara overload UTS. Langsung kabarin pengawas ujianmu aja biar dilaporin ke admin Edunex. Tenang, waktu pengerjaan emang ga nambah tapi waktu submit-nya diperpanjang kok!”\nRingkas, santai, menenangkan, dan memberikan langkah praktis langsung.\n\n\nTechnical peer\n“High-traffic spike saat UTS menyebabkan server Edunex overload/unresponsive. User diminta escalate ticket/laporan via pengawas untuk dilanjutkan ke sysadmin Edunex. Submission deadline diperpanjang tanpa mengubah durasi pengerjaan.”\nMenggunakan terminologi teknis (traffic spike, sysadmin, submission deadline) untuk menjelaskan akar masalah dan mitigasi.\n\n\nManager\n“Overload server Edunex saat UTS berdampak pada kelancaran pengumpulan jawaban mahasiswa. Prosedur mitigasi: pengawas merekap laporan kendala ke tim IT/admin Edunex dan memperpanjang batas waktu submit mahasiswa.”\nBerfokus pada dampak operasional, mekanisme penanganan berjenjang, dan solusi manajemen risiko.\n\n\nCustomer/student user\n“Jika Anda mengalami kendala akses Edunex akibat server overload saat UTS, harap segera laporkan ke pengawas ujian Anda. Pengawas akan meneruskan laporan ke admin Edunex. Waktu pengerjaan tidak bertambah, namun tenggat submit diperpanjang.”\nJelas, berfokus pada aksi yang harus dilakukan mahasiswa tanpa beban istilah teknis internal.\n\n\nPublic\n“Layanan portal Edunex sempat mengalami kendala akses akibat peningkatan trafik saat periode UTS. Penanganan dilakukan bersama pengawas dan tim pengelola Edunex dengan perpanjangan batas pengumpulan jawaban.”\nBersifat informatif umum, menjaga reputasi, dan mengarahkan pada solusi tanpa membagikan log internal.",
+    "crumbs": [
+      "Beranda",
+      "Five-Language Translation Portfolio"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-04.html#evidence-understanding",
+    "href": "portfolio/week-04.html#evidence-understanding",
+    "title": "Five-Language Translation Portfolio",
+    "section": "Evidence understanding",
+    "text": "Evidence understanding\nUji coba dilakukan terhadap versi Customer/student user kepada salah satu mahasiswa yang sedang mengikuti UTS. Pengujian langsung dilakukan menggunakan draf versi Pelanggan/Mahasiswa (Student User) kepada salah satu mahasiswa peserta UTS. Secara umum, ia langsung memahami instruksi utama untuk melapor kepada pengawas apabila terjadi kendala pada Edunex. Namun, muncul pertanyaan krusial dari responden: “Apakah kalau Edunex down, alokasi jam pengerjaan soal saya otomatis bertambah?”\nDiberikan penjelasan tambahan: “Waktu pengerjaan soal tidak ditambah, namun waktu/tenggat submit diperpanjang.” Adaptasi ini memperjelas kondisi dan batasan tanpa mengubah core meaning awal.",
+    "crumbs": [
+      "Beranda",
+      "Five-Language Translation Portfolio"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-04.html#analisis-dan-batas",
+    "href": "portfolio/week-04.html#analisis-dan-batas",
+    "title": "Five-Language Translation Portfolio",
+    "section": "Analisis dan batas",
+    "text": "Analisis dan batas\nKeragaman register (repertoire) disesuaikan secara cermat dengan profil tiap audiens—mulai dari gaya obrolan santai antarteman, istilah teknis yang presisi untuk rekan sejawat, bahasa formal berorientasi manajemen, panduan praktis untuk mahasiswa, hingga penyampaian resmi yang menenangkan bagi publik umum.\nSaran alternatif dari AI yang menyarankan penambahan opsi “seluruh ujian akan diulang” secara tegas ditolak dan dieleminasi, karena tidak sesuai dengan fakta di lapangan serta berpotensi melanggar kebijakan resmi instansi",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1707,7 +1729,7 @@
     "href": "portfolio/week-04.html#self-assessment",
     "title": "Five-Language Translation Portfolio",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence singkat\n\n\n\n\nPerson & Character\n3\nProfil kelima audiens berhasil dibedakan melalui gaya bahasa, sudut pandang, dan tingkat kedalaman informasi yang relevan\n\n\nObjective & State\n3\nInformasi inti (core facts) serta langkah taktis yang harus diambil pengguna tersampaikan secara konsisten di semua ragam bahasa\n\n\nRepertoire, Language & AI\n4\nMenguasai lima register bahasa yang kontras, dilengkapi alasan adaptasi yang rasional, serta bersikap kritis dalam menyaring masukan AI\n\n\nResponse & Adaptation\n4\nTanggap terhadap umpan balik penguji melalui klarifikasi langsung mengenai perbedaan durasi pengerjaan vs tenggat submit\n\n\nAgreement, Action & Relationship\n3\nAlur instruksi pelaporan ke pengawas dan keputusan perpanjangan waktu pengumpulan tersampaikan dengan tegas dan persuasif\n\n\n\nTotal: 17/20 — Kompeten.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1795,7 +1817,7 @@
     "href": "portfolio/index.html",
     "title": "Indeks Portfolio",
     "section": "",
-    "text": "Perbarui metadata di bagian atas setiap file week-XX.qmd. Nilai status yang disarankan: Belum dimulai, Draft, Siap dinilai, Perlu revisi, atau Tercapai.\n\n\n\n\n\n\nTipButuh contoh?\n\n\n\nLihat contoh portfolio lengkap untuk Minggu 1–15. Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Urut berdasar\n      Default\n      \n        Evidence\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMinggu\n\n\n\nEvidence\n\n\n\nStatus\n\n\n\nSelf\n\n\n\nAssessor\n\n\n\n\n\n\n\n\n1\n\n\nCharacter Map\n\n\nSelesai\n\n\n15/20\n\n\n—\n\n\n\n\n\n\n2\n\n\nIntra-Self Communication Journal\n\n\nSelesai\n\n\n15/20\n\n\n—\n\n\n\n\n\n\n3\n\n\nRelationship Conversation\n\n\nSelesai\n\n\n16/20\n\n\n—\n\n\n\n\n\n\n4\n\n\nFive-Language Translation Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n5\n\n\nProfessional Discovery Interview\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n6\n\n\nTarget–Attention Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n7\n\n\nProblem–Solution Interest Pitch\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n8\n\n\nUTS Performance Evidence Package\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n9\n\n\nDesire-State Communication\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n10\n\n\nAction & Agreement Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n11\n\n\nMulti-Person Negotiation Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n12\n\n\nCommunity Communication Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n13\n\n\nPublic Contribution Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n14\n\n\nAI-Mediated Communication Design\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n15\n\n\nCapstone Performance Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\nTidak ada yang cocok\n Kembali ke atas",
+    "text": "Perbarui metadata di bagian atas setiap file week-XX.qmd. Nilai status yang disarankan: Belum dimulai, Draft, Siap dinilai, Perlu revisi, atau Tercapai.\n\n\n\n\n\n\nTipButuh contoh?\n\n\n\nLihat contoh portfolio lengkap untuk Minggu 1–15. Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Urut berdasar\n      Default\n      \n        Evidence\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMinggu\n\n\n\nEvidence\n\n\n\nStatus\n\n\n\nSelf\n\n\n\nAssessor\n\n\n\n\n\n\n\n\n1\n\n\nCharacter Map\n\n\nSelesai\n\n\n15/20\n\n\n—\n\n\n\n\n\n\n2\n\n\nIntra-Self Communication Journal\n\n\nSelesai\n\n\n15/20\n\n\n—\n\n\n\n\n\n\n3\n\n\nRelationship Conversation\n\n\nSelesai\n\n\n16/20\n\n\n—\n\n\n\n\n\n\n4\n\n\nFive-Language Translation Portfolio\n\n\nSelesai\n\n\n17/20\n\n\n—\n\n\n\n\n\n\n5\n\n\nProfessional Discovery Interview\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n6\n\n\nTarget–Attention Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n7\n\n\nProblem–Solution Interest Pitch\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n8\n\n\nUTS Performance Evidence Package\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n9\n\n\nDesire-State Communication\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n10\n\n\nAction & Agreement Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n11\n\n\nMulti-Person Negotiation Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n12\n\n\nCommunity Communication Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n13\n\n\nPublic Contribution Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n14\n\n\nAI-Mediated Communication Design\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n15\n\n\nCapstone Performance Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\nTidak ada yang cocok\n Kembali ke atas",
     "crumbs": [
       "Beranda",
       "Indeks Portfolio"
