@@ -1,6 +1,5 @@
 ---
 title: "Penilaian Target-Attention Challenge"
-author: "Muhammad Aquilla Arizqy (18225017)"
 week: 6
 status: "Siap Dinilai"
 self_score: "15"
