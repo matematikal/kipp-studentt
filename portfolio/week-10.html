@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Barrier, authority, negotiation, agreement, dan action evidence.">
+<meta name="author" content="Mahasiswa – Komunikasi Inter Personal dan Publik">
+<meta name="dcterms.date" content="2026-11-30">
 
-<title>Action &amp; Agreement Challenge – Portfolio KIPP-2</title>
+<title>Lembar Kerja Bab 10 – Portfolio KIPP-2</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -80,6 +81,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -153,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="Jalur"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../portfolio/week-10.html">Action &amp; Agreement Challenge</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="Jalur"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../portfolio/week-10.html">Lembar Kerja Bab 10</a></li></ol></nav>
         <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -228,7 +258,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolio/week-10.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Action &amp; Agreement Challenge</span></a>
+ <span class="menu-text">Lembar Kerja Bab 10</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -271,17 +301,42 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Di halaman ini</h2>
    
   <ul>
-  <li><a href="#kompetensi-target" id="toc-kompetensi-target" class="nav-link active" data-scroll-target="#kompetensi-target">Kompetensi target</a></li>
-  <li><a href="#evidence-wajib" id="toc-evidence-wajib" class="nav-link" data-scroll-target="#evidence-wajib">Evidence wajib</a></li>
-  <li><a href="#konteks-performance" id="toc-konteks-performance" class="nav-link" data-scroll-target="#konteks-performance">Konteks performance</a></li>
-  <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">Evidence</a></li>
-  <li><a href="#analisis-komunikasi" id="toc-analisis-komunikasi" class="nav-link" data-scroll-target="#analisis-komunikasi">Analisis komunikasi</a></li>
-  <li><a href="#penggunaan-ai" id="toc-penggunaan-ai" class="nav-link" data-scroll-target="#penggunaan-ai">Penggunaan AI</a></li>
-  <li><a href="#feedback-dan-tindak-lanjut" id="toc-feedback-dan-tindak-lanjut" class="nav-link" data-scroll-target="#feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</a></li>
-  <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-assessment</a>
+  <li><a href="#identitas-evidence" id="toc-identitas-evidence" class="nav-link active" data-scroll-target="#identitas-evidence">Identitas Evidence</a>
   <ul class="collapse">
-  <li><a href="#assessment-dosen" id="toc-assessment-dosen" class="nav-link" data-scroll-target="#assessment-dosen">Assessment dosen</a></li>
+  <li><a href="#kaitan-dengan-minggu-09-desireaction-gap-yang-harus-ditutup" id="toc-kaitan-dengan-minggu-09-desireaction-gap-yang-harus-ditutup" class="nav-link" data-scroll-target="#kaitan-dengan-minggu-09-desireaction-gap-yang-harus-ditutup">Kaitan dengan Minggu 09 (<em>desire–action gap</em> yang harus ditutup)</a></li>
   </ul></li>
+  <li><a href="#identitas-proyek-pihak-yang-terlibat" id="toc-identitas-proyek-pihak-yang-terlibat" class="nav-link" data-scroll-target="#identitas-proyek-pihak-yang-terlibat">1. Identitas Proyek &amp; Pihak yang Terlibat</a></li>
+  <li><a href="#pengantar-konsep-menjembatani-bahasa-menjadi-kenyataan" id="toc-pengantar-konsep-menjembatani-bahasa-menjadi-kenyataan" class="nav-link" data-scroll-target="#pengantar-konsep-menjembatani-bahasa-menjadi-kenyataan">2. Pengantar Konsep: Menjembatani Bahasa Menjadi Kenyataan</a></li>
+  <li><a href="#bagian-a-peta-hambatan-barrier-map" id="toc-bagian-a-peta-hambatan-barrier-map" class="nav-link" data-scroll-target="#bagian-a-peta-hambatan-barrier-map">Bagian A: Peta Hambatan (<em>Barrier Map</em>)</a></li>
+  <li><a href="#bagian-b-peta-wewenang-authority-map" id="toc-bagian-b-peta-wewenang-authority-map" class="nav-link" data-scroll-target="#bagian-b-peta-wewenang-authority-map">Bagian B: Peta Wewenang (<em>Authority Map</em>)</a></li>
+  <li><a href="#bagian-c-opsi-dan-trade-off-yang-dinegosiasikan" id="toc-bagian-c-opsi-dan-trade-off-yang-dinegosiasikan" class="nav-link" data-scroll-target="#bagian-c-opsi-dan-trade-off-yang-dinegosiasikan">Bagian C: Opsi dan <em>Trade-off</em> yang Dinegosiasikan</a></li>
+  <li><a href="#bagian-d-membedakan-wish-intention-commitment-agreement-dan-action" id="toc-bagian-d-membedakan-wish-intention-commitment-agreement-dan-action" class="nav-link" data-scroll-target="#bagian-d-membedakan-wish-intention-commitment-agreement-dan-action">Bagian D: Membedakan <em>Wish</em>, <em>Intention</em>, <em>Commitment</em>, <em>Agreement</em>, dan <em>Action</em></a></li>
+  <li><a href="#bagian-1-pemetaan-negosiasi-berbasis-kepentingan" id="toc-bagian-1-pemetaan-negosiasi-berbasis-kepentingan" class="nav-link" data-scroll-target="#bagian-1-pemetaan-negosiasi-berbasis-kepentingan">Bagian 1: Pemetaan Negosiasi Berbasis Kepentingan</a></li>
+  <li><a href="#bagian-2-formula-kesepakatan-presisi-the-agreement-formula" id="toc-bagian-2-formula-kesepakatan-presisi-the-agreement-formula" class="nav-link" data-scroll-target="#bagian-2-formula-kesepakatan-presisi-the-agreement-formula">Bagian 2: Formula Kesepakatan Presisi (<em>The Agreement Formula</em>)</a>
+  <ul class="collapse">
+  <li><a href="#rumus-siapa-rightarrow-melakukan-apa-rightarrow-kapan-rightarrow-prasyaratsumber-daya-rightarrow-definisi-selesai-rightarrow-tindak-lanjut" id="toc-rumus-siapa-rightarrow-melakukan-apa-rightarrow-kapan-rightarrow-prasyaratsumber-daya-rightarrow-definisi-selesai-rightarrow-tindak-lanjut" class="nav-link" data-scroll-target="#rumus-siapa-rightarrow-melakukan-apa-rightarrow-kapan-rightarrow-prasyaratsumber-daya-rightarrow-definisi-selesai-rightarrow-tindak-lanjut">Rumus: <strong>SIAPA <span class="math inline">\(\rightarrow\)</span> Melakukan APA <span class="math inline">\(\rightarrow\)</span> KAPAN <span class="math inline">\(\rightarrow\)</span> Prasyarat/Sumber Daya <span class="math inline">\(\rightarrow\)</span> DEFINISI SELESAI <span class="math inline">\(\rightarrow\)</span> Tindak Lanjut</strong></a></li>
+  <li><a href="#tabel-daftar-kesepakatan-tindakan" id="toc-tabel-daftar-kesepakatan-tindakan" class="nav-link" data-scroll-target="#tabel-daftar-kesepakatan-tindakan">Tabel Daftar Kesepakatan Tindakan</a></li>
+  </ul></li>
+  <li><a href="#bagian-3-kontrol-lingkar-komitmen-commitment-loop-checklist" id="toc-bagian-3-kontrol-lingkar-komitmen-commitment-loop-checklist" class="nav-link" data-scroll-target="#bagian-3-kontrol-lingkar-komitmen-commitment-loop-checklist">Bagian 3: Kontrol Lingkar Komitmen (<em>Commitment Loop Checklist</em>)</a>
+  <ul class="collapse">
+  <li><a href="#alur-pelacakan-janji" id="toc-alur-pelacakan-janji" class="nav-link" data-scroll-target="#alur-pelacakan-janji">Alur Pelacakan Janji</a></li>
+  </ul></li>
+  <li><a href="#transcript-negosiasi-kamis-19-november-2026" id="toc-transcript-negosiasi-kamis-19-november-2026" class="nav-link" data-scroll-target="#transcript-negosiasi-kamis-19-november-2026">Transcript Negosiasi (Kamis, 19 November 2026)</a>
+  <ul class="collapse">
+  <li><a href="#catatan-observer-s." id="toc-catatan-observer-s." class="nav-link" data-scroll-target="#catatan-observer-s.">Catatan observer (S.)</a></li>
+  </ul></li>
+  <li><a href="#bagian-4-evaluasi-jalur-ganda-dual-track-evaluation" id="toc-bagian-4-evaluasi-jalur-ganda-dual-track-evaluation" class="nav-link" data-scroll-target="#bagian-4-evaluasi-jalur-ganda-dual-track-evaluation">Bagian 4: Evaluasi Jalur Ganda (<em>Dual-Track Evaluation</em>)</a>
+  <ul class="collapse">
+  <li><a href="#jalur-tugas-task-outcome" id="toc-jalur-tugas-task-outcome" class="nav-link" data-scroll-target="#jalur-tugas-task-outcome">1. Jalur Tugas (<em>Task Outcome</em>)</a></li>
+  <li><a href="#jalur-relasi-relationship-outcome" id="toc-jalur-relasi-relationship-outcome" class="nav-link" data-scroll-target="#jalur-relasi-relationship-outcome">2. Jalur Relasi (<em>Relationship Outcome</em>)</a></li>
+  </ul></li>
+  <li><a href="#rubrik-penilaian-mandiri-umpan-balik-sejawat" id="toc-rubrik-penilaian-mandiri-umpan-balik-sejawat" class="nav-link" data-scroll-target="#rubrik-penilaian-mandiri-umpan-balik-sejawat">Rubrik Penilaian Mandiri &amp; Umpan Balik Sejawat</a>
+  <ul class="collapse">
+  <li><a href="#pemetaan-ke-evidence-wajib-minggu-10" id="toc-pemetaan-ke-evidence-wajib-minggu-10" class="nav-link" data-scroll-target="#pemetaan-ke-evidence-wajib-minggu-10">Pemetaan ke evidence wajib Minggu 10</a></li>
+  <li><a href="#daftar-lampiran" id="toc-daftar-lampiran" class="nav-link" data-scroll-target="#daftar-lampiran">Daftar lampiran</a></li>
+  </ul></li>
+  <li><a href="#prioritas-perbaikan-saya" id="toc-prioritas-perbaikan-saya" class="nav-link" data-scroll-target="#prioritas-perbaikan-saya">Prioritas Perbaikan Saya</a></li>
+  <li><a href="#deklarasi-penggunaan-ai-dan-human-review" id="toc-deklarasi-penggunaan-ai-dan-human-review" class="nav-link" data-scroll-target="#deklarasi-penggunaan-ai-dan-human-review">Deklarasi Penggunaan AI dan Human Review</a></li>
   </ul>
 </nav>
     </div>
@@ -290,23 +345,27 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Action &amp; Agreement Challenge</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">TAIDA</div>
-    <div class="quarto-category">Action</div>
-  </div>
-  </div>
-
-<div>
-  <div class="description">
-    Barrier, authority, negotiation, agreement, dan action evidence.
-  </div>
+<h1 class="title">Lembar Kerja Bab 10</h1>
+<p class="subtitle lead">Dokumen Kesepakatan &amp; Lingkar Komitmen (TAIDA IV – Kesepakatan dan Tindakan)</p>
 </div>
+
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Penulis</div>
+    <div class="quarto-title-meta-contents">
+             <p>Mahasiswa – Komunikasi Inter Personal dan Publik </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Diterbitkan</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">30 November 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -316,143 +375,1116 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="kompetensi-target" class="level2">
-<h2 class="anchored" data-anchor-id="kompetensi-target">Kompetensi target</h2>
-<p>Menemukan desire–action gap dan menghasilkan agreement yang feasible serta eksplisit.</p>
-</section>
-<section id="evidence-wajib" class="level2">
-<h2 class="anchored" data-anchor-id="evidence-wajib">Evidence wajib</h2>
-<ul>
-<li>Barrier dan authority map.</li>
-<li>Options dan trade-off yang dibahas.</li>
-<li>Agreement dengan owner/deadline serta bukti action atau review.</li>
-</ul>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Lihat contoh pengisian
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="../examples/week-10.html">Buka contoh fiktif Minggu 10</a> untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.</p>
-</div>
-</div>
-</section>
-<section id="konteks-performance" class="level2">
-<h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
-<p><strong>Tanggal dan setting:</strong> Ganti dengan tanggal, tempat, dan bentuk kegiatan.</p>
-<p><strong>Persons dan relationship:</strong> Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.</p>
-<p><strong>Objective dan initial state:</strong> Nyatakan perubahan yang ingin dicapai serta evidence state awal.</p>
-</section>
-<section id="evidence" class="level2">
-<h2 class="anchored" data-anchor-id="evidence">Evidence</h2>
-<div class="evidence-block">
-<p>Tambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.</p>
-</div>
-</section>
-<section id="analisis-komunikasi" class="level2">
-<h2 class="anchored" data-anchor-id="analisis-komunikasi">Analisis komunikasi</h2>
+<section id="identitas-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="identitas-evidence">Identitas Evidence</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Elemen</th>
-<th>Evidence dan analisis</th>
+<th style="text-align: left;">Komponen</th>
+<th style="text-align: left;">Keterangan</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; character</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;">Minggu dan tugas</td>
+<td style="text-align: left;">Minggu 10 – <em>Action &amp; Agreement Challenge</em></td>
 </tr>
 <tr class="even">
-<td>Objective &amp; state</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;">Kompetensi target</td>
+<td style="text-align: left;">Menemukan <em>desire–action gap</em> dan menghasilkan <em>agreement</em> yang <em>feasible</em> serta eksplisit</td>
 </tr>
 <tr class="odd">
-<td>Repertoire &amp; language</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;">Sasaran komunikasi</td>
+<td style="text-align: left;"><strong>Pak R.</strong> (disamarkan), laboran Laboratorium Konversi Energi</td>
 </tr>
 <tr class="even">
-<td>Response &amp; adaptation</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;">Pihak berwenang (<em>authority</em>)</td>
+<td style="text-align: left;"><strong>Ibu K.</strong> (disamarkan), Kepala Laboratorium – memutuskan uji coba, penggunaan data, dan penugasan asisten</td>
 </tr>
 <tr class="odd">
-<td>Agreement/action</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;">Pihak terdampak</td>
+<td style="text-align: left;">Asisten praktikum <strong>A1</strong>, <strong>A2</strong> (disamarkan); koordinator asisten <strong>A3</strong> (masuk kemudian, lihat C-3)</td>
 </tr>
 <tr class="even">
-<td>Relationship outcome</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;">Observer</td>
+<td style="text-align: left;">Rekan sejawat <strong>S.</strong> (inisial) – mencatat perilaku selama pertemuan negosiasi dan checkpoint</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Pertemuan negosiasi</td>
+<td style="text-align: left;">Kamis, 19 November 2026, 10.00–10.21 WITA, ruang Kepala Lab (21 menit; Pak R., Ibu K., saya, observer S.)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Periode tindakan</td>
+<td style="text-align: left;">Uji coba 2 minggu: Senin 23 November – Jumat 4 Desember 2026</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tanggal pengumpulan lembar kerja</td>
+<td style="text-align: left;">Senin, 30 November 2026 (setelah checkpoint minggu 1; review akhir dijadwalkan 7 Desember)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Privasi</td>
+<td style="text-align: left;">Nama orang disamarkan. Data uji coba hanya nama dan kelompok, tanpa NIM/HP (syarat Ibu K., Minggu 09 L-1). Rekaman suara pertemuan atas izin lisan Pak R. dan Ibu K. (T-01–T-02), disimpan lokal, tidak diunggah ke layanan AI.</td>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="penggunaan-ai" class="level2">
-<h2 class="anchored" data-anchor-id="penggunaan-ai">Penggunaan AI</h2>
-<p>Nyatakan <code>Tidak menggunakan AI</code> atau jelaskan:</p>
-<ul>
-<li>alat dan peran AI;</li>
-<li>prompt atau instruksi penting;</li>
-<li>bagian output yang digunakan, diubah, atau ditolak;</li>
-<li>pemeriksaan accuracy, privacy, dan authority;</li>
-<li>apa yang tetap Anda pelajari sebagai manusia.</li>
-</ul>
-</section>
-<section id="feedback-dan-tindak-lanjut" class="level2">
-<h2 class="anchored" data-anchor-id="feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</h2>
-<p><strong>Feedback yang diterima:</strong> Ganti dengan kutipan atau ringkasan berbasis evidence.</p>
-<p><strong>Adaptation/replay:</strong> Jelaskan apa yang Anda ubah dan response setelah perubahan.</p>
-<p><strong>Next practice:</strong> Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.</p>
-</section>
-<section id="self-assessment" class="level2">
-<h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
+<section id="kaitan-dengan-minggu-09-desireaction-gap-yang-harus-ditutup" class="level3">
+<h3 class="anchored" data-anchor-id="kaitan-dengan-minggu-09-desireaction-gap-yang-harus-ditutup">Kaitan dengan Minggu 09 (<em>desire–action gap</em> yang harus ditutup)</h3>
+<p>Pada akhir Minggu 09, Pak R. berada pada <strong>Desire bersyarat</strong>: ia ingin bisa menunjuk pemegang terakhir setiap alat saat audit Desember, tetapi baru “percaya” bila uji 2 minggu memenuhi ambangnya (Mg 09 T-23) dan bila syarat penggunaan data diterima Ibu K. (Mg 09 T-29). Keinginan itu belum menjadi tindakan karena ada tiga celah:</p>
+<ol type="1">
+<li>Keputusan uji coba dan syarat data <strong>bukan wewenang</strong> saya maupun Pak R.</li>
+<li>Komitmen asisten baru berlaku untuk pra-uji coba 2 hari, bukan 2 minggu (catatan kritis observer Mg 09).</li>
+<li>Belum ada pemilik, tenggat, dan cara review untuk setiap langkah.</li>
+</ol>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Dimensi</th>
-<th style="text-align: right;">Skor 1–4</th>
-<th>Evidence singkat</th>
+<th style="text-align: left;">Tindak lanjut dari Minggu 09</th>
+<th style="text-align: left;">Status sebelum negosiasi</th>
+<th style="text-align: left;">Evidence</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; Character</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: left;">Konfirmasi ulang asisten untuk 2 minggu (prioritas perbaikan saya)</td>
+<td style="text-align: left;"><strong>Dilakukan sebelum</strong> draf dikirim. A1 bersedia 2 minggu. A2 <strong>menolak</strong> minggu ke-2 karena seminar proposal tugas akhir. Penolakan ini dicatat, tidak ditawar ulang.</td>
+<td style="text-align: left;">L-1: pesan asisten, Selasa 17 Nov 09.12 dan 09.40</td>
 </tr>
 <tr class="even">
-<td>Objective &amp; State</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: left;">Draf usulan dikirim ke Pak R.</td>
+<td style="text-align: left;">Dikirim Selasa 17 Nov 11.35 (tenggat 12.00). Pak R. meminta satu perubahan: kata “laboran wajib memeriksa daftar” diganti “laboran dapat memeriksa daftar”.</td>
+<td style="text-align: left;">L-2: draf v1 dan v2 dengan riwayat perubahan</td>
 </tr>
 <tr class="odd">
-<td>Repertoire, Language &amp; AI</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Response &amp; Adaptation</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Agreement, Action &amp; Relationship</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: left;">Draf diteruskan ke Ibu K.</td>
+<td style="text-align: left;">Diteruskan Pak R., Rabu 18 Nov; Ibu K. meminta bertemu bertiga.</td>
+<td style="text-align: left;">L-3: pesan Pak R., 18 Nov 14.05</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Total:</strong> — / 20</p>
-<section id="assessment-dosen" class="level3 assessor-only">
-<h3 class="anchored" data-anchor-id="assessment-dosen">Assessment dosen</h3>
-<p><strong>Skor:</strong> — / 20<br>
-<strong>Evidence yang mendukung:</strong> —<br>
-<strong>Prioritas perbaikan:</strong> —<br>
-<strong>Keputusan:</strong> Belum dinilai / Perlu revisi / Tercapai</p>
+<hr>
 </section>
+</section>
+<section id="identitas-proyek-pihak-yang-terlibat" class="level2">
+<h2 class="anchored" data-anchor-id="identitas-proyek-pihak-yang-terlibat">1. Identitas Proyek &amp; Pihak yang Terlibat</h2>
+<ul>
+<li><strong>Nama Proyek/Gagasan:</strong> Uji coba 2 minggu pencatatan peminjaman–pengembalian alat ukur dengan label QR di Laboratorium Konversi Energi, dengan buku besar tetap sebagai arsip resmi.</li>
+<li><strong>Tanggal Diskusi:</strong> Kamis, 19 November 2026 (negosiasi); Jumat, 27 November 2026 (checkpoint minggu 1).</li>
+<li><strong>Pihak-Pihak yang Menyusun Kesepakatan:</strong>
+<ol type="1">
+<li><strong>Pihak A (Nama &amp; Peran):</strong> Pak R., laboran; pengguna utama daftar riwayat dan penanggung jawab harian peminjaman alat.</li>
+<li><strong>Pihak B (Nama &amp; Peran):</strong> Saya, mahasiswa pengusul; penanggung jawab teknis uji coba (label, Form, Sheet, laporan).</li>
+<li><strong>Pihak Lain/Pengamat:</strong> Ibu K., Kepala Lab (pemegang keputusan); asisten A1, A2, A3 (pelaksana cek akhir kelas); observer S.</li>
+</ol></li>
+</ul>
+<hr>
+</section>
+<section id="pengantar-konsep-menjembatani-bahasa-menjadi-kenyataan" class="level2">
+<h2 class="anchored" data-anchor-id="pengantar-konsep-menjembatani-bahasa-menjadi-kenyataan">2. Pengantar Konsep: Menjembatani Bahasa Menjadi Kenyataan</h2>
+<p>Pada kasus ini, yang menjembatani keinginan menjadi tindakan <strong>bukan</strong> argumen yang lebih kuat, melainkan tiga hal: (1) memindahkan keputusan ke pemilik wewenang yang tepat; (2) mengecilkan langkah sampai setiap orang sanggup menjalankannya dalam batas waktunya sendiri; (3) menulis setiap janji dengan pemilik, tenggat, definisi selesai, dan titik review. Bagian A–C di bawah memetakan hambatan dan wewenang sebelum masuk ke formula kesepakatan.</p>
+<hr>
+</section>
+<section id="bagian-a-peta-hambatan-barrier-map" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-a-peta-hambatan-barrier-map">Bagian A: Peta Hambatan (<em>Barrier Map</em>)</h2>
+<p>Peta ini disusun <strong>sebelum</strong> pertemuan 19 November dari evidence Minggu 07–09 dan pesan asisten (L-1), lalu diperbarui dengan apa yang muncul dalam pertemuan. Kolom “Siapa yang menanggung” dipakai agar hambatan tidak otomatis jatuh ke Pak R.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Jenis hambatan</th>
+<th style="text-align: left;">Bentuk konkret di kasus ini</th>
+<th style="text-align: left;">Siapa yang menanggung</th>
+<th style="text-align: left;">Sumber evidence</th>
+<th style="text-align: left;">Cara ditangani dalam kesepakatan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Money (uang)</strong></td>
+<td style="text-align: left;">Label stiker untuk 16 alat (12 multimeter, 4 <em>clamp meter</em>) ±Rp9.000; laminasi ±Rp16.000. Tidak ada anggaran lab untuk uji coba.</td>
+<td style="text-align: left;">Saya</td>
+<td style="text-align: left;">Nota fotokopi (L-5)</td>
+<td style="text-align: left;">Saya tanggung; Ibu K. menyatakan lab tidak menyediakan dana dan tidak berutang apa pun (T-19). Tidak ada biaya berlangganan; Form/Sheet di akun lab.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Time (waktu)</strong></td>
+<td style="text-align: left;">(a) Pak R. maksimal 10 menit/hari; (b) asisten ±5 menit per kelas untuk cek akhir; (c) audit inventaris pertengahan Desember, jadi uji coba harus mulai paling lambat 23 Nov agar 2 minggu selesai sebelum audit.</td>
+<td style="text-align: left;">Pak R., asisten, saya</td>
+<td style="text-align: left;">Mg 09 T-09, T-28; L-1</td>
+<td style="text-align: left;">Pak R. mencatat menitnya sendiri di kolom buku besar; batas 10 menit menjadi syarat henti (Kesepakatan No.&nbsp;5). Tanggal mulai dikunci 23 Nov.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Effort (usaha)</strong></td>
+<td style="text-align: left;">Mahasiswa harus memindai dua kali (pinjam &amp; kembali); asisten menginput lembar kertas cadangan.</td>
+<td style="text-align: left;">Mahasiswa, asisten</td>
+<td style="text-align: left;">Mg 09 pra-uji coba: 2 dari 23 lupa memindai saat kembali</td>
+<td style="text-align: left;">Cek akhir kelas oleh asisten; alat tidak dipinjamkan ke kelompok berikutnya sebelum status kembali terisi.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Capability (kemampuan)</strong></td>
+<td style="text-align: left;">Pak R. belum terbiasa memakai filter Sheet; sinyal di ruang lab putus-putus.</td>
+<td style="text-align: left;">Pak R., saya</td>
+<td style="text-align: left;">Mg 09 T-11 (Pak R. membuka riwayat ±15 detik); pra-uji coba: sinyal putus 1 kali</td>
+<td style="text-align: left;">Saya membuat tab “Cari Alat” dengan satu kotak isian (tanpa filter), dan latihan 10 menit bersama Pak R. pada Sabtu 21 Nov.&nbsp;Lembar kertas bernomor tetap tersedia.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Risk (risiko)</strong></td>
+<td style="text-align: left;">(a) Data tidak lengkap dipakai untuk menyalahkan laboran; (b) data pribadi mahasiswa; (c) stiker menutupi label kalibrasi alat.</td>
+<td style="text-align: left;">Pak R., mahasiswa, lab</td>
+<td style="text-align: left;">Mg 09 T-15–T-17; L-1 Mg 09; T-21 (Ibu K.)</td>
+<td style="text-align: left;">(a) Syarat penggunaan data ditandatangani Ibu K.; kolom “ditandai manual oleh asisten”; (b) hanya nama + kelompok, dihapus akhir semester; (c) posisi stiker diatur Pak R., <em>data logger</em> dikeluarkan dari uji coba.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Change (perubahan kebiasaan)</strong></td>
+<td style="text-align: left;">Pak R. memegang buku besar tulisan tangannya sendiri sebagai sumber kendali; mengganti kebiasaan itu terasa mengancam.</td>
+<td style="text-align: left;">Pak R.</td>
+<td style="text-align: left;">Mg 09 T-17</td>
+<td style="text-align: left;">Buku besar <strong>tetap</strong> arsip resmi selama uji coba; tidak ada janji bahwa buku besar akan dihapus. Perubahan permanen ditunda sampai setelah review (T-26).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Authority (wewenang)</strong></td>
+<td style="text-align: left;">(a) Uji coba dan syarat data = Ibu K.; (b) penugasan asisten tambahan = Ibu K. melalui koordinator asisten; (c) perubahan SOP permanen = Ketua Jurusan, bukan Ibu K.; (d) saya tidak berwenang atas siapa pun.</td>
+<td style="text-align: left;">Ibu K., Ketua Jurusan</td>
+<td style="text-align: left;">T-24, T-26</td>
+<td style="text-align: left;">Lihat Bagian B. Kesepakatan hanya mencakup uji coba 2 minggu; SOP permanen sengaja <strong>tidak</strong> dimasukkan.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Hambatan yang semula salah saya baca:</strong> saya mengira hambatan terbesar adalah <em>capability</em> Pak R. memakai Sheet. Dalam pertemuan, hambatan yang paling menentukan ternyata <strong>authority</strong> (siapa yang menugaskan asisten pengganti, T-14–T-16) dan <strong>time</strong> asisten minggu ke-2 (penolakan A2). Kemampuan Pak R. cukup diatasi dengan latihan 10 menit.</p>
+<hr>
+</section>
+<section id="bagian-b-peta-wewenang-authority-map" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-b-peta-wewenang-authority-map">Bagian B: Peta Wewenang (<em>Authority Map</em>)</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Keputusan / sumber daya</th>
+<th style="text-align: left;">Pemegang wewenang</th>
+<th style="text-align: left;">Wewenang saya</th>
+<th style="text-align: left;">Wewenang Pak R.</th>
+<th style="text-align: left;">Bagaimana dihormati</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Menyetujui uji coba 2 minggu</td>
+<td style="text-align: left;">Ibu K.</td>
+<td style="text-align: left;">Mengusulkan</td>
+<td style="text-align: left;">Merekomendasikan atau menolak ikut</td>
+<td style="text-align: left;">Diputuskan Ibu K. di T-20; saya tidak memulai apa pun sebelum itu.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Syarat penggunaan data (hanya melacak alat, bukan menilai kinerja laboran)</td>
+<td style="text-align: left;">Ibu K.</td>
+<td style="text-align: left;">Menulis usulan syarat</td>
+<td style="text-align: left;">Menetapkan syarat ikut (Mg 09 T-29)</td>
+<td style="text-align: left;">Ibu K. menyetujui dan menandatangani (T-18, L-4).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Akun Google lab &amp; akses Sheet</td>
+<td style="text-align: left;">Ibu K. (pemilik akun); Pak R. (pemegang kata sandi harian)</td>
+<td style="text-align: left;">Akses edit selama uji coba saja</td>
+<td style="text-align: left;">Akses baca daftar</td>
+<td style="text-align: left;">Akses saya dicabut Ibu K. setelah review akhir (Kesepakatan No.&nbsp;7).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Penugasan asisten</td>
+<td style="text-align: left;">Ibu K. melalui koordinator asisten</td>
+<td style="text-align: left;">Tidak ada; hanya bisa meminta kesediaan</td>
+<td style="text-align: left;">Tidak ada</td>
+<td style="text-align: left;">Saya tidak menawar ulang penolakan A2. Penugasan pengganti diminta kepada Ibu K. (T-15–T-16).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Alat mana yang diberi label</td>
+<td style="text-align: left;">Pak R. (penata alat), Ibu K. (alat bernilai tinggi)</td>
+<td style="text-align: left;">Mengusulkan</td>
+<td style="text-align: left;">Menentukan posisi stiker</td>
+<td style="text-align: left;"><em>Data logger</em> dikeluarkan atas keputusan Ibu K. (T-21–T-22).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Menghentikan uji coba</td>
+<td style="text-align: left;">Pak R. (bila &gt;10 menit/hari dua hari berturut-turut atau syarat data dilanggar); Ibu K. (kapan saja)</td>
+<td style="text-align: left;">Menghentikan bila sistem gagal teknis</td>
+<td style="text-align: left;">Ya</td>
+<td style="text-align: left;">Ditulis sebagai Kesepakatan No.&nbsp;5.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SOP permanen peminjaman</td>
+<td style="text-align: left;">Ketua Jurusan atas usulan Kepala Lab</td>
+<td style="text-align: left;">Tidak ada</td>
+<td style="text-align: left;">Tidak ada</td>
+<td style="text-align: left;"><strong>Tidak</strong> termasuk kesepakatan ini; Ibu K. sendiri menolak menjanjikannya (T-26).</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="bagian-c-opsi-dan-trade-off-yang-dinegosiasikan" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-c-opsi-dan-trade-off-yang-dinegosiasikan">Bagian C: Opsi dan <em>Trade-off</em> yang Dinegosiasikan</h2>
+<p>Opsi O1–O4 saya bawa ke pertemuan dalam satu lembar. Opsi O5 <strong>lahir dalam pertemuan</strong> dari usulan Pak R. dan Ibu K. Kolom terakhir mencatat siapa yang menolak atau memilih, agar terlihat bahwa keputusan tidak berasal dari tekanan saya.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Opsi</th>
+<th style="text-align: left;">Isi</th>
+<th style="text-align: left;">Keuntungan</th>
+<th style="text-align: left;">Kerugian / <em>trade-off</em></th>
+<th style="text-align: left;">Hasil dalam negosiasi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">O1</td>
+<td style="text-align: left;">Uji coba 2 minggu, semua multimeter + <em>clamp meter</em> + <em>data logger</em>, 6 kelas/minggu</td>
+<td style="text-align: left;">Memenuhi ambang Pak R. (2 minggu, semua multimeter &amp; <em>clamp meter</em>)</td>
+<td style="text-align: left;">Minggu ke-2 hanya ada A1 untuk 3 kelas; 3 kelas tanpa cek akhir. <em>Data logger</em> berisiko label kalibrasi tertutup.</td>
+<td style="text-align: left;">Ditolak sebagian: <em>data logger</em> dikeluarkan (Ibu K., T-22); masalah asisten minggu ke-2 belum terjawab.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">O2</td>
+<td style="text-align: left;">Uji coba 1 minggu saja (A1 + A2 tersedia)</td>
+<td style="text-align: left;">Seluruh kelas punya cek akhir</td>
+<td style="text-align: left;"><strong>Tidak memenuhi ambang</strong> Pak R. (2 minggu, Mg 09 T-23)</td>
+<td style="text-align: left;">Ditolak Pak R. (T-10): “Satu minggu belum bisa saya percaya.”</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">O3</td>
+<td style="text-align: left;">Tunda sampai setelah audit Desember</td>
+<td style="text-align: left;">Tidak ada tekanan waktu</td>
+<td style="text-align: left;">Kehilangan alasan utama Pak R. (bukti untuk audit)</td>
+<td style="text-align: left;">Ditolak Pak R. (sama dengan Mg 09 T-28), dikonfirmasi ulang di T-11.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">O4</td>
+<td style="text-align: left;">Pak R. melakukan cek akhir kelas di 3 kelas minggu ke-2</td>
+<td style="text-align: left;">Tidak perlu asisten tambahan</td>
+<td style="text-align: left;">Melampaui batas 10 menit/hari Pak R.</td>
+<td style="text-align: left;"><strong>Saya coret sendiri sebelum dibahas</strong> (T-12), karena melanggar <em>must-keep</em> Pak R.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">O5</td>
+<td style="text-align: left;">2 minggu; minggu ke-2: A1 3 kelas, Ibu K. meminta koordinator asisten menugaskan pengganti A2; <strong>bila tidak ada pengganti</strong>, saya mengecek 2 kelas yang jadwalnya kosong bagi saya (Selasa &amp; Kamis), dan kelas Jumat memakai buku besar saja dengan baris ditandai “tanpa cek QR”</td>
+<td style="text-align: left;">Ambang 2 minggu terpenuhi; beban Pak R. tidak bertambah; penugasan asisten tetap di tangan yang berwenang</td>
+<td style="text-align: left;">Data kelas Jumat minggu ke-2 tidak lengkap; saya harus menjaga dua slot jadwal.</td>
+<td style="text-align: left;"><strong>Dipilih</strong> (T-17, T-20). Pak R. menerima kelas Jumat tanpa QR asal tidak dihitung sebagai kegagalan (T-17).</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Trade-off yang diterima bersama:</strong> cakupan data dikurangi (satu kelas minggu ke-2 tanpa QR, <em>data logger</em> tidak ikut) agar beban Pak R. tetap ≤10 menit/hari dan agar tidak ada orang yang ditugaskan oleh pihak yang tidak berwenang.</p>
+<p><strong>Trade-off yang saya tolak:</strong> saya tidak menawarkan imbalan apa pun kepada A2 untuk mengubah jawabannya, dan tidak meminta Pak R. “sedikit menambah” waktunya. Keduanya akan berarti menekan orang yang sudah menyatakan batas.</p>
+<hr>
+</section>
+<section id="bagian-d-membedakan-wish-intention-commitment-agreement-dan-action" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-d-membedakan-wish-intention-commitment-agreement-dan-action">Bagian D: Membedakan <em>Wish</em>, <em>Intention</em>, <em>Commitment</em>, <em>Agreement</em>, dan <em>Action</em></h2>
+<p>Saya memakai lima kategori ini untuk memilah ucapan dalam pertemuan agar tidak salah membaca “iya” sebagai tindakan.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Tingkat</th>
+<th style="text-align: left;">Definisi kerja yang saya pakai</th>
+<th style="text-align: left;">Contoh dari evidence</th>
+<th style="text-align: left;">Cara saya memperlakukannya</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Wish</strong> (keinginan)</td>
+<td style="text-align: left;">Hasil yang diinginkan, tanpa langkah atau pemilik</td>
+<td style="text-align: left;">Pak R.: “Mudah-mudahan nanti semua lab pakai begini” (T-27)</td>
+<td style="text-align: left;">Dicatat, <strong>tidak</strong> dimasukkan ke daftar kesepakatan. Saya menjawab bahwa itu di luar uji coba.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Intention</strong> (niat)</td>
+<td style="text-align: left;">Niat bertindak, tetapi belum ada waktu, ukuran, atau masih bergantung pada pihak lain</td>
+<td style="text-align: left;">Ibu K.: “Nanti saya coba tanya koordinator asisten” (T-15)</td>
+<td style="text-align: left;">Saya minta dijadikan komitmen dengan tenggat (T-16).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Commitment</strong> (komitmen)</td>
+<td style="text-align: left;">Satu orang berjanji melakukan tindakan spesifik dengan tenggat</td>
+<td style="text-align: left;">Ibu K.: “Senin siang saya kabari, ada pengganti atau tidak” (T-16); A1: bersedia cek akhir 3 kelas/minggu selama 2 minggu (L-1)</td>
+<td style="text-align: left;">Dimasukkan ke Bagian 2 dengan definisi selesai dan cara laporan.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Agreement</strong> (kesepakatan)</td>
+<td style="text-align: left;">Beberapa pihak menyetujui rumusan yang sama, termasuk syarat dan hak mundur</td>
+<td style="text-align: left;">Rumusan uji coba O5 + syarat data + syarat henti, dibacakan ulang (T-28) dan disetujui Pak R. dan Ibu K. (T-29–T-30); ditandatangani di L-4</td>
+<td style="text-align: left;">Menjadi dokumen yang dibaca ulang saat checkpoint.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Action</strong> (tindakan)</td>
+<td style="text-align: left;">Perilaku yang benar-benar terjadi dan dapat dibuktikan</td>
+<td style="text-align: left;">Label terpasang 16 alat (21 Nov, foto L-6); Pak R. mencatat menitnya setiap hari (L-8); Ibu K. mengirim kabar A3 (23 Nov, L-7); laporan checkpoint (27 Nov, L-9)</td>
+<td style="text-align: left;">Dibuktikan di Bagian 3 dengan artefak, bukan klaim.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Celah yang masih terbuka:</strong> “Mudah-mudahan semua lab pakai begini” (wish) dan pertanyaan SOP permanen (T-26) belum menjadi apa pun, dan itu disengaja. Yang disepakati hanya uji coba 2 minggu.</p>
+<hr>
+</section>
+<section id="bagian-1-pemetaan-negosiasi-berbasis-kepentingan" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-1-pemetaan-negosiasi-berbasis-kepentingan">Bagian 1: Pemetaan Negosiasi Berbasis Kepentingan</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Pihak</th>
+<th style="text-align: left;">Posisi (Tuntutan/Solusi Kaku yang Diajukan)</th>
+<th style="text-align: left;">Kepentingan (Kebutuhan Dasar, Dampak, atau Alasan Batin)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Pihak A: Pak R. (laboran)</strong></td>
+<td style="text-align: left;"><em>“Syarat soal data wajib ada. Kalau Ibu K. tidak setuju, saya tidak mau ikut. Dan saya tidak mau tambah kerjaan.”</em> (Mg 09 T-29; T-12)</td>
+<td style="text-align: left;">Tidak lagi menjadi orang yang menjawab “tidak tahu” saat audit Desember; tidak disalahkan oleh data yang tidak lengkap; tetap memegang kendali atas catatan resmi (buku besar).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Pihak B: Saya (mahasiswa pengusul)</strong></td>
+<td style="text-align: left;"><em>“Uji coba 2 minggu dengan semua multimeter, clamp meter, dan data logger di semua kelas.”</em> (draf v1)</td>
+<td style="text-align: left;">Menguji apakah mekanisme QR benar-benar menjawab masalah pelacakan; menghasilkan evidence portfolio yang jujur, termasuk bila hasilnya negatif.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Pihak C: Ibu K. (Kepala Lab, authority)</strong></td>
+<td style="text-align: left;"><em>“Data logger jangan ditempeli apa-apa. Dan saya tidak bisa janji ini jadi SOP.”</em> (T-22, T-26)</td>
+<td style="text-align: left;">Audit inventaris berjalan tertib; alat bernilai tinggi tidak rusak; tidak ada beban dana; keputusan tidak melampaui wewenangnya (SOP = Ketua Jurusan); laboran tidak merasa diawasi.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Pihak D: Asisten A2</strong></td>
+<td style="text-align: left;"><em>“Minggu kedua saya tidak bisa.”</em> (L-1)</td>
+<td style="text-align: left;">Seminar proposal tugas akhir; tidak ingin menjanjikan yang tidak bisa ia penuhi.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Poin Temu Kepentingan Utama:</strong> Pak R. dan Ibu K. sama-sama membutuhkan jejak pemegang alat <strong>sebelum audit Desember</strong>, dan sama-sama tidak ingin data itu menjadi alat untuk menilai laboran. Saya membutuhkan uji yang jujur, sehingga cakupan yang lebih kecil tetapi lengkap lebih bernilai bagi saya daripada cakupan besar dengan data bolong.</li>
+</ul>
+<hr>
+</section>
+<section id="bagian-2-formula-kesepakatan-presisi-the-agreement-formula" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-2-formula-kesepakatan-presisi-the-agreement-formula">Bagian 2: Formula Kesepakatan Presisi (<em>The Agreement Formula</em>)</h2>
+<section id="rumus-siapa-rightarrow-melakukan-apa-rightarrow-kapan-rightarrow-prasyaratsumber-daya-rightarrow-definisi-selesai-rightarrow-tindak-lanjut" class="level3">
+<h3 class="anchored" data-anchor-id="rumus-siapa-rightarrow-melakukan-apa-rightarrow-kapan-rightarrow-prasyaratsumber-daya-rightarrow-definisi-selesai-rightarrow-tindak-lanjut">Rumus: <strong>SIAPA <span class="math inline">\(\rightarrow\)</span> Melakukan APA <span class="math inline">\(\rightarrow\)</span> KAPAN <span class="math inline">\(\rightarrow\)</span> Prasyarat/Sumber Daya <span class="math inline">\(\rightarrow\)</span> DEFINISI SELESAI <span class="math inline">\(\rightarrow\)</span> Tindak Lanjut</strong></h3>
+<p>Seluruh butir di bawah dibacakan ulang di akhir pertemuan (T-28) dan ditandatangani Pak R. dan Ibu K. (L-4). Satu butir satu pemilik.</p>
+</section>
+<section id="tabel-daftar-kesepakatan-tindakan" class="level3">
+<h3 class="anchored" data-anchor-id="tabel-daftar-kesepakatan-tindakan">Tabel Daftar Kesepakatan Tindakan</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">No</th>
+<th style="text-align: left;">SIAPA (Peran &amp; Nama Jelas)</th>
+<th style="text-align: left;">Melakukan APA (Tindakan spesifik, operasional, &amp; terukur)</th>
+<th style="text-align: left;">KAPAN (Tenggat waktu: Hari, Tanggal, Jam)</th>
+<th style="text-align: left;">Sumber Daya/Prasyarat</th>
+<th style="text-align: left;">DEFINISI SELESAI</th>
+<th style="text-align: left;">Metode Tindak Lanjut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>1</strong></td>
+<td style="text-align: left;">Saya (mahasiswa, penanggung jawab teknis)</td>
+<td style="text-align: left;">Memasang label QR pada 12 multimeter dan 4 <em>clamp meter</em> pada posisi yang ditunjuk Pak R.; memindahkan Form dan Sheet ke akun lab; membuat tab “Cari Alat”; melatih Pak R. 10 menit.</td>
+<td style="text-align: left;">Sabtu, 21 Nov 2026, 11.00 WITA</td>
+<td style="text-align: left;">Akses akun lab dari Ibu K.; Pak R. hadir Sabtu 09.30; label (biaya saya)</td>
+<td style="text-align: left;">16/16 alat terpindai membuka Form dengan nama alat terisi; Pak R. menemukan pemegang terakhir 3 alat acak di tab “Cari Alat” tanpa dibantu.</td>
+<td style="text-align: left;">Foto label + tangkapan layar uji pindai ke grup WA “Uji QR Lab KE” (Pak R., Ibu K., saya); Pak R. membalas “diterima”.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>2</strong></td>
+<td style="text-align: left;">Ibu K. (Kepala Lab)</td>
+<td style="text-align: left;">Menanyakan kepada koordinator asisten apakah ada asisten pengganti A2 untuk 3 kelas minggu ke-2, lalu mengabarkan hasilnya (ada atau tidak).</td>
+<td style="text-align: left;">Senin, 23 Nov 2026, 13.00 WITA</td>
+<td style="text-align: left;">Jadwal 3 kelas (saya kirim 19 Nov, 15.00)</td>
+<td style="text-align: left;">Pesan dari Ibu K. berisi nama pengganti dan kelasnya, <strong>atau</strong> pernyataan “tidak ada pengganti”.</td>
+<td style="text-align: left;">Pesan ke grup WA; bila “tidak ada”, saya menjalankan cadangan O5 (Selasa &amp; Kamis saya cek; Jumat buku besar saja).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>3</strong></td>
+<td style="text-align: left;">Asisten A1 (dan A2 minggu 1, pengganti minggu 2)</td>
+<td style="text-align: left;">Mengecek di akhir setiap kelas bahwa semua alat yang kembali sudah dipindai; menandai manual baris yang tidak dipindai; menginput lembar kertas cadangan <strong>sebelum</strong> daftar diserahkan ke Pak R.</td>
+<td style="text-align: left;">Setiap akhir kelas, 23 Nov – 4 Des 2026</td>
+<td style="text-align: left;">Lembar kertas bernomor; akses input Form</td>
+<td style="text-align: left;">Tidak ada baris “pinjam tanpa kembali” yang belum ditandai pada pukul 17.00 hari yang sama.</td>
+<td style="text-align: left;">Saya memeriksa Sheet setiap hari 17.00 dan mengirim satu baris status ke grup asisten.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>4</strong></td>
+<td style="text-align: left;">Pak R. (laboran)</td>
+<td style="text-align: left;">Membuka tab “Cari Alat” setiap sore <strong>bila ia mau</strong> dan mencatat menit tambahan kerjanya di kolom paling kanan buku besar.</td>
+<td style="text-align: left;">Setiap hari kerja, 23 Nov – 4 Des 2026, sebelum pulang</td>
+<td style="text-align: left;">Komputer meja laboran; tab “Cari Alat”</td>
+<td style="text-align: left;">Kolom menit terisi untuk 10 hari kerja (diisi “0” bila tidak membuka).</td>
+<td style="text-align: left;">Foto kolom buku besar dibawa ke checkpoint (27 Nov) dan review akhir (7 Des).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>5</strong></td>
+<td style="text-align: left;">Pak R. dan Ibu K. (pemegang hak henti)</td>
+<td style="text-align: left;">Menghentikan uji coba bila: tambahan kerja Pak R. &gt;10 menit dua hari berturut-turut, <strong>atau</strong> syarat penggunaan data dilanggar. Saya menghentikan bila sistem gagal teknis &gt;1 hari.</td>
+<td style="text-align: left;">Berlaku 23 Nov – 4 Des 2026</td>
+<td style="text-align: left;">Catatan menit (No.&nbsp;4); syarat data (L-4)</td>
+<td style="text-align: left;">Bila dipicu: pesan “uji coba berhenti” di grup WA dan buku besar berjalan sendiri sejak hari itu.</td>
+<td style="text-align: left;">Alasan berhenti dicatat dan dilaporkan apa adanya di portfolio.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>6</strong></td>
+<td style="text-align: left;">Saya</td>
+<td style="text-align: left;">Mengirim laporan checkpoint satu halaman: dua angka utama (alat yang punya nama pemegang terakhir; menit Pak R.), kendala, dan usulan penyesuaian.</td>
+<td style="text-align: left;">Jumat, 27 Nov 2026, 16.00 WITA</td>
+<td style="text-align: left;">Data Sheet minggu 1; foto kolom menit</td>
+<td style="text-align: left;">Pak R. dan Ibu K. membalas “diterima” atau mengajukan perubahan.</td>
+<td style="text-align: left;">Pertemuan 15 menit Jumat 27 Nov 14.00 (checkpoint), lalu laporan tertulis.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>7</strong></td>
+<td style="text-align: left;">Ibu K. (memimpin), Pak R., saya</td>
+<td style="text-align: left;">Review akhir: memutuskan lanjut, berhenti, atau mengusulkan ke Ketua Jurusan; mencabut akses edit saya; menetapkan tanggal penghapusan data.</td>
+<td style="text-align: left;">Senin, 7 Des 2026, 10.00 WITA</td>
+<td style="text-align: left;">Laporan akhir dari saya (Jumat 4 Des, 16.00)</td>
+<td style="text-align: left;">Keputusan tertulis Ibu K. satu dari tiga pilihan; akses edit saya tercabut.</td>
+<td style="text-align: left;">Notulen review dikirim ke grup WA oleh saya, dibaca dan dikoreksi Pak R.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Syarat penggunaan data</strong> (ditandatangani Ibu K., L-4): “Data uji coba label QR hanya dipakai untuk melacak keberadaan alat. Data tidak dipakai untuk menilai kinerja laboran atau asisten. Buku besar tetap arsip resmi. Data berisi nama dan kelompok saja dan dihapus paling lambat akhir semester ganjil 2026/2027.”</p>
+<hr>
+</section>
+</section>
+<section id="bagian-3-kontrol-lingkar-komitmen-commitment-loop-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-3-kontrol-lingkar-komitmen-commitment-loop-checklist">Bagian 3: Kontrol Lingkar Komitmen (<em>Commitment Loop Checklist</em>)</h2>
+<section id="alur-pelacakan-janji" class="level3">
+<h3 class="anchored" data-anchor-id="alur-pelacakan-janji">Alur Pelacakan Janji</h3>
+<pre><code>  [ Fase 1: JANJI ] ───────────► [ Fase 2: CHECKPOINT ]
+          │                                  │
+          ▼                                  ▼
+  [ Fase 4: PENERIMAAN ] ◄──────── [ Fase 3: BUKTI &amp; PEMERIKSAAN ]</code></pre>
+<ol type="1">
+<li><strong>Butir Tindakan No: 1</strong> (pemasangan label, pemindahan ke akun lab, latihan Pak R.) — <strong>lingkar tertutup</strong>
+<ul>
+<li><strong>Fase 1: Janji Terbentuk (Hari/Tanggal):</strong> Kamis, 19 Nov 2026 (T-28–T-30).</li>
+<li><strong>Fase 2: Checkpoint/Pemeriksaan Awal:</strong>
+<ul>
+<li><em>Kapan Checkpoint dilakukan?</em> Kamis, 19 Nov 2026, 16.00 (dua hari sebelum tenggat) — saya mengecek akses akun lab.</li>
+<li><em>Apa kemajuan/kendala yang ditemukan saat checkpoint?</em> Akses akun lab belum diberikan karena Ibu K. rapat. Saya <strong>tidak</strong> memakai akun pribadi sebagai jalan pintas (melanggar syarat Mg 09 L-1); saya mengirim satu pesan pengingat ke Ibu K. Jumat 20 Nov 08.00. Akses diberikan Jumat 10.15 (L-6a).</li>
+</ul></li>
+<li><strong>Fase 3: Bukti &amp; Pemeriksaan Mandiri:</strong>
+<ul>
+<li><em>Bukti nyata apa yang diserahkan sebagai hasil kerja?</em> Foto 16 alat berlabel (L-6); tangkapan layar 16 uji pindai; video 40 detik Pak R. mencari CM-03, MM-07, MM-11 di tab “Cari Alat”.</li>
+<li><em>Apakah hasil tersebut sudah memenuhi “Definisi Selesai” di Bagian 2?</em> <code>[x] Ya</code> <code>[ ] Belum</code> — catatan: MM-09 gagal terpindai pada percobaan pertama karena stiker melengkung di badan alat; label dicetak ulang dan dipindah ke sisi datar atas arahan Pak R. Selesai 10.50, sebelum tenggat 11.00.</li>
+</ul></li>
+<li><strong>Fase 4: Penerimaan Resmi:</strong>
+<ul>
+<li><em>Siapa penerima manfaat yang memeriksa dan menyatakan puas?</em> Pak R.</li>
+<li><em>Catatan penerimaan:</em> Pak R. membalas di grup WA Sabtu 21 Nov 11.06: “Diterima. Cari alatnya gampang, asal jangan ada yang ditambah lagi.” Saya membaca kalimat kedua sebagai batas, bukan sekadar candaan, dan tidak menambah fitur apa pun selama uji coba.</li>
+</ul></li>
+</ul></li>
+<li><strong>Butir Tindakan No: 6</strong> (laporan checkpoint minggu 1) — <strong>checkpoint terjadi, satu janji saya meleset dan dinegosiasi ulang</strong>
+<ul>
+<li><strong>Fase 1: Janji Terbentuk (Hari/Tanggal):</strong> Kamis, 19 Nov 2026 (T-28).</li>
+<li><strong>Fase 2: Checkpoint/Pemeriksaan Awal:</strong>
+<ul>
+<li><em>Kapan Checkpoint dilakukan?</em> Rabu, 25 Nov 2026, 17.00 (dua hari sebelum tenggat) — saya membaca Sheet dan kolom menit Pak R.</li>
+<li><em>Apa kemajuan/kendala yang ditemukan saat checkpoint?</em> (a) Rabu 25 Nov sinyal putus ±40 menit; 14 transaksi masuk lewat lembar kertas, dan Pak R. mencatat <strong>12 menit</strong> hari itu (melewati batas 10). Penyebabnya: lembar kertas sampai ke meja Pak R. sebelum diinput asisten. (b) Kamis 26 Nov ia mencatat 7 menit, sehingga syarat henti (dua hari berturut-turut) tidak terpicu. (c) Penyesuaian yang saya usulkan di pertemuan checkpoint Jumat 14.00: asisten menginput lembar kertas sebelum menyerahkan daftar, bukan sesudahnya. Pak R. setuju, A1 setuju.</li>
+</ul></li>
+<li><strong>Fase 3: Bukti &amp; Pemeriksaan Mandiri:</strong>
+<ul>
+<li><em>Bukti nyata apa yang diserahkan sebagai hasil kerja?</em> Laporan checkpoint satu halaman (L-9) dengan dua angka utama: <strong>16 dari 16 alat</strong> yang dicek Pak R. pada Jumat memiliki nama pemegang terakhir; tambahan kerja Pak R. minggu 1: <strong>6, 8, 12, 7, 5 menit</strong>. Kendala dan penyesuaian ditulis di bawahnya, rincian transaksi di lampiran.</li>
+<li><em>Apakah hasil tersebut sudah memenuhi “Definisi Selesai” di Bagian 2?</em> <code>[x] Ya</code> <code>[ ] Belum</code> — <strong>tetapi tidak tepat waktu.</strong> Tenggat Jumat 16.00. Pukul 15.35 saya sadar input lembar kertas hari Rabu belum dicocokkan dengan buku besar. Saya mengirim pesan ke grup <strong>sebelum</strong> tenggat lewat: “Mohon maaf, laporan checkpoint terlambat karena saya masih mencocokkan 14 transaksi kertas hari Rabu dengan buku besar. Saya kirim paling lambat pukul 19.30 malam ini. Apakah itu masih bisa diterima?” Pak R. membalas “Bisa.” Laporan terkirim 19.10.</li>
+</ul></li>
+<li><strong>Fase 4: Penerimaan Resmi:</strong>
+<ul>
+<li><em>Siapa penerima manfaat yang memeriksa dan menyatakan puas?</em> Pak R. dan Ibu K.</li>
+<li><em>Catatan penerimaan:</em> Ibu K. membalas Sabtu 28 Nov 07.40: “Diterima. Yang hari Rabu 12 menit itu tolong dipantau.” Pak R. membalas: “Ok. Asal kertasnya sudah diinput dulu.” Kedua balasan saya masukkan ke catatan review akhir sebagai hal yang harus dilaporkan pada 7 Desember.</li>
+</ul></li>
+</ul></li>
+<li><strong>Butir Tindakan No: 2</strong> (Ibu K. mencari pengganti asisten) — <strong>ditepati oleh pemegang wewenang</strong>
+<ul>
+<li><strong>Fase 1: Janji Terbentuk:</strong> Kamis, 19 Nov 2026 (T-16).</li>
+<li><strong>Fase 2: Checkpoint:</strong> Saya tidak menagih sebelum tenggat karena tenggat ditentukan Ibu K. sendiri; saya hanya mengirim jadwal 3 kelas minggu ke-2 sesuai janji saya, Kamis 19 Nov 14.50.</li>
+<li><strong>Fase 3: Bukti:</strong> Pesan Ibu K. Senin 23 Nov 11.20: “Koordinator asisten A3 bisa ganti A2 untuk kelas Selasa dan Kamis minggu depan. Jumat tidak ada.” (L-7). Rencana cadangan O5 dijalankan hanya untuk kelas Jumat 4 Des (buku besar saja), dan dua slot cadangan saya tidak terpakai.</li>
+<li><strong>Fase 4: Penerimaan:</strong> Saya membalas dengan rumusan ulang: “Minggu ke-2: A1 tetap di tiga kelasnya, A3 kelas Selasa dan Kamis, kelas Jumat buku besar saja, ditandai <em>tanpa cek QR</em>.” Ibu K. dan Pak R. membalas “Ya.”</li>
+</ul></li>
+<li><strong>Butir Tindakan No: 7</strong> (review akhir) — <strong>belum terjadi</strong> saat lembar kerja dikumpulkan; dijadwalkan Senin, 7 Desember 2026, 10.00. Bukti keputusan akan ditempel sebagai lampiran revisi (L-10). Saya tidak menuliskan hasilnya sekarang karena belum ada.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="transcript-negosiasi-kamis-19-november-2026" class="level2">
+<h2 class="anchored" data-anchor-id="transcript-negosiasi-kamis-19-november-2026">Transcript Negosiasi (Kamis, 19 November 2026)</h2>
+<p>Transcript direkonstruksi dari rekaman suara dan dirapikan tanpa mengubah isi. “M” = saya, “R” = Pak R., “K” = Ibu K. Kolom kanan memisahkan <strong>(a) observasi</strong>, <strong>(b) interpretasi saya</strong>, <strong>(c) adaptasi</strong>.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">No</th>
+<th style="text-align: center;">Pembicara</th>
+<th style="text-align: left;">Ucapan / tindakan</th>
+<th style="text-align: left;">(a) observasi · (b) interpretasi · (c) adaptasi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">T-01</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: left;">“Terima kasih Ibu dan Bapak meluangkan waktu. Boleh saya rekam suara selama pertemuan, hanya untuk saya dan dosen pengampu? Kalau ada bagian yang tidak ingin direkam, saya matikan.”</td>
+<td style="text-align: left;">(a) K: “Boleh.”</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T-02</td>
+<td style="text-align: center;">R</td>
+<td style="text-align: left;">“Boleh.”</td>
+<td style="text-align: left;">–</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">T-03</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: left;">“Saya ingin pertemuan ini menghasilkan satu dari tiga hal: uji coba jalan dengan rumusan yang jelas, ditunda, atau tidak jalan. Ketiganya hasil yang sah. Keputusannya ada di Ibu.”</td>
+<td style="text-align: left;">Menyatakan <em>authority</em> dan hak menolak di awal.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T-04</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: left;">“Saya sudah baca drafnya. Saya mau dengar dulu dari Pak R., beliau yang paling kena.”</td>
+<td style="text-align: left;">(b) K menempatkan Pak R. sebagai pihak yang suaranya menentukan.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">T-05</td>
+<td style="text-align: center;">R</td>
+<td style="text-align: left;">“Saya mau, Bu, karena audit. Tapi syarat data itu harus ada. Kalau tidak, saya tidak ikut.”</td>
+<td style="text-align: left;">(a) Tegas, menatap K. (b) Posisi Pak R. konsisten dengan Mg 09 T-29.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T-06</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: left;">“Syarat itu saya setuju. Saya juga tidak mau Bapak merasa diawasi.”</td>
+<td style="text-align: left;">(b) Hambatan <em>risk</em> + <em>authority</em> pertama terbuka.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">T-07</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: left;">“Terima kasih, Bu. Sebelum ke rincian, ada satu hal yang berubah sejak draf. Asisten A2 sudah menyatakan tidak bisa di minggu kedua karena seminar proposal. A1 bisa dua minggu. Jadi minggu kedua ada tiga kelas tanpa cek akhir kelas.”</td>
+<td style="text-align: left;">(c) Menyampaikan kabar buruk sebelum ditanya; menerapkan prioritas perbaikan Mg 09 (komitmen pihak ketiga dikonfirmasi).</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T-08</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: left;">“Oh. Jadi bagaimana?”</td>
+<td style="text-align: left;">–</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">T-09</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: left;">“Ada beberapa pilihan, saya tulis di lembar ini. Salah satunya hanya satu minggu, karena di minggu pertama asisten lengkap.”</td>
+<td style="text-align: left;">Menyerahkan lembar O1–O4.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T-10</td>
+<td style="text-align: center;">R</td>
+<td style="text-align: left;">“Satu minggu belum bisa saya percaya. Saya kan bilang dua minggu.”</td>
+<td style="text-align: left;">(b) O2 ditolak berdasarkan ambang yang ia tetapkan sendiri.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">T-11</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: left;">“Kalau ditunda?” — R: “Kalau ditunda, audit lewat, Bu.”</td>
+<td style="text-align: left;">(b) O3 ditolak dengan alasan yang sama seperti Mg 09 T-28.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T-12</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: left;">“Pilihan keempat di lembar itu, Bapak yang mengecek tiga kelas, saya coret, karena itu melanggar batas sepuluh menit yang Bapak tetapkan. Saya tidak ingin Bapak merasa harus mengiyakannya.”</td>
+<td style="text-align: left;">(c) Mencoret opsi yang menguntungkan saya tetapi melanggar <em>must-keep</em> target. (a) R mengangguk.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">T-13</td>
+<td style="text-align: center;">R</td>
+<td style="text-align: left;">“Iya, saya tidak bisa itu.”</td>
+<td style="text-align: left;">–</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T-14</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: left;">“Untuk tiga kelas itu, saya tidak berwenang meminta asisten lain. Apakah itu memungkinkan dari sisi Ibu?”</td>
+<td style="text-align: left;">Mengembalikan keputusan penugasan ke pemegang wewenang.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">T-15</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: left;">“Nanti saya coba tanya koordinator asisten.”</td>
+<td style="text-align: left;">(b) Masih <em>intention</em>: tanpa waktu dan tanpa kepastian.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T-16</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: left;">“Supaya saya bisa siap-siap, kira-kira kapan Ibu bisa mengabari, ada atau tidak ada? Kalau tidak ada pun tidak apa-apa, saya siapkan cadangannya.” — K: “Senin siang. Jam satu paling lambat.”</td>
+<td style="text-align: left;">(c) Mengubah <em>intention</em> menjadi <em>commitment</em> bertenggat <strong>tanpa</strong> memaksakan hasil “ada”.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">T-17</td>
+<td style="text-align: center;">R</td>
+<td style="text-align: left;">“Kalau tidak ada pengganti, kelas yang tidak dicek itu jangan dihitung gagal. Pakai buku besar saja.”</td>
+<td style="text-align: left;">(b) Pak R. sendiri mengusulkan bagian O5. Ia melindungi diri dari ukuran yang tidak adil (pola sama dengan Mg 09 T-25).</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T-18</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: left;">“Baik. Cadangannya begini: Selasa dan Kamis jadwal saya kosong, saya bisa mengecek sendiri. Jumat saya ada kuliah, jadi kelas Jumat buku besar saja, ditandai ‘tanpa cek QR’, tidak dihitung. Syarat data juga saya ketik ulang sekarang supaya Ibu bisa tanda tangan.”</td>
+<td style="text-align: left;">(c) Menawarkan beban ke diri sendiri, bukan ke Pak R.; batas kemampuan saya (Jumat) dinyatakan.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">T-19</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: left;">“Lab tidak ada dana untuk label, ya. Saya sampaikan dari awal.” — M: “Labelnya saya tanggung, sekitar dua puluh lima ribu dengan laminasi. Lab tidak berutang apa-apa.”</td>
+<td style="text-align: left;">(b) Hambatan <em>money</em> dibuka oleh K; dijawab dengan angka, bukan “gratis”.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T-20</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: left;">“Oke. Saya setuju dua minggu dengan rumusan tadi.”</td>
+<td style="text-align: left;">(b) Keputusan <em>authority</em>.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">T-21</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: left;">“Tapi satu: <em>data logger</em> jangan ditempeli. Label kalibrasinya di situ, kalau tertutup, repot waktu audit.”</td>
+<td style="text-align: left;">(b) Batas baru dari <em>authority</em>; <em>risk</em> yang tidak saya petakan.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T-22</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: left;">“Baik, <em>data logger</em> saya keluarkan. Untuk multimeter dan <em>clamp meter</em>, posisi stikernya biar Pak R. yang menentukan, beliau yang paling tahu label kalibrasi tiap alat.” — R: “Iya, nanti Sabtu saya tunjukkan.”</td>
+<td style="text-align: left;">(c) Menghormati “tidak” tanpa menawar; memberi kendali posisi label ke Pak R.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">T-23</td>
+<td style="text-align: center;">R</td>
+<td style="text-align: left;">“Kalau satu hari saya lebih dari sepuluh menit, bagaimana?”</td>
+<td style="text-align: left;">(b) Pak R. menguji apakah batasnya sungguh berlaku.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T-24</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: left;">“Bapak catat menitnya sendiri di buku besar. Kalau dua hari berturut-turut lebih dari sepuluh menit, Bapak berhak menghentikan uji coba, dan saya laporkan apa adanya. Kalau syarat data dilanggar, Bapak atau Ibu bisa menghentikan kapan saja.”</td>
+<td style="text-align: left;">(c) Syarat henti eksplisit, dimiliki Pak R.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">T-25</td>
+<td style="text-align: center;">R</td>
+<td style="text-align: left;">“Dua hari berturut-turut, ya. Satu hari bisa saja sinyal jelek.”</td>
+<td style="text-align: left;">(b) Pak R. sendiri yang menyesuaikan ambang menjadi lebih realistis.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T-26</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: left;">“Bu, satu hal yang tidak saya masukkan: kalau hasilnya baik, apakah ini bisa jadi SOP?” — K: “Itu bukan wewenang saya, itu Ketua Jurusan. Saya tidak mau janji. Kita lihat dulu dua minggu.”</td>
+<td style="text-align: left;">(b) K menyatakan batas wewenangnya sendiri. (c) Saya tidak mendesak; tidak dimasukkan ke kesepakatan.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">T-27</td>
+<td style="text-align: center;">R</td>
+<td style="text-align: left;">“Mudah-mudahan nanti semua lab pakai begini.” — M: “Itu harapan yang bagus, Pak, tapi itu di luar dua minggu ini. Saya tidak tulis sebagai janji.”</td>
+<td style="text-align: left;">(b) <em>Wish</em>, dicatat tetapi tidak dijadikan <em>agreement</em>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T-28</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: left;">[Membacakan butir 1–7 dari lembar, termasuk tenggat, definisi selesai, dan syarat henti] “Apakah ada yang tidak sesuai atau terlalu berat?”</td>
+<td style="text-align: left;">Pembacaan ulang; ±2 menit.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">T-29</td>
+<td style="text-align: center;">R</td>
+<td style="text-align: left;">“Nomor empat, tulis ‘bila saya mau’. Saya tidak mau diwajibkan buka tiap hari, tapi menitnya tetap saya catat.”</td>
+<td style="text-align: left;">(c) Revisi butir 4 di tempat, ditulis dengan pena di lembar.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T-30</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: left;">“Sudah. Saya tanda tangan syarat datanya.” — R: “Saya juga.”</td>
+<td style="text-align: left;">(a) L-4 ditandatangani dua pihak.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">T-31</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: left;">“Terima kasih. Jadwal tiga kelas minggu kedua saya kirim ke Ibu hari ini paling lambat jam tiga, supaya Ibu bisa langsung tanya koordinator asisten.”</td>
+<td style="text-align: left;">Komitmen saya sendiri yang menjadi prasyarat butir 2.</td>
+</tr>
+</tbody>
+</table>
+<section id="catatan-observer-s." class="level3">
+<h3 class="anchored" data-anchor-id="catatan-observer-s.">Catatan observer (S.)</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Kode</th>
+<th style="text-align: center;">Waktu</th>
+<th style="text-align: left;">Observasi perilaku</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">O-1</td>
+<td style="text-align: center;">01:10</td>
+<td style="text-align: left;">Di T-03, M menyebut tiga hasil yang sah termasuk “tidak jalan” sebelum masuk materi. K mengangguk.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">O-2</td>
+<td style="text-align: center;">03:20</td>
+<td style="text-align: left;">Di T-07, M menyampaikan penolakan A2 tanpa diminta. K dan R saling pandang, lalu K bertanya “jadi bagaimana?” dengan nada netral.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">O-3</td>
+<td style="text-align: center;">05:05</td>
+<td style="text-align: left;">Di T-12, M mencoret O4 dengan pena di depan R. R mengangguk dua kali.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">O-4</td>
+<td style="text-align: center;">06:30</td>
+<td style="text-align: left;">Di T-15–T-16, K menjawab “nanti saya coba”, M bertanya “kapan bisa mengabari, ada atau tidak ada”, K menyebut “Senin jam satu”. M menulisnya di lembar.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">O-5</td>
+<td style="text-align: center;">09:40</td>
+<td style="text-align: left;">Di T-21, K menolak <em>data logger</em>. M langsung setuju tanpa menawar dan mengalihkan penentuan posisi stiker ke R.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">O-6</td>
+<td style="text-align: center;">12:50</td>
+<td style="text-align: left;">Di T-23–T-25, R mengubah syarat henti menjadi “dua hari berturut-turut” atas inisiatif sendiri.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">O-7</td>
+<td style="text-align: center;">16:00–18:10</td>
+<td style="text-align: left;">M membacakan seluruh butir. Pembacaan ±2 menit; K sempat melihat ponsel di butir 6–7.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">O-8</td>
+<td style="text-align: center;">18:30</td>
+<td style="text-align: left;">R meminta revisi butir 4 (“bila saya mau”). M mengubahnya di tempat.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Catatan kritis</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: left;">(1) Pembacaan ulang tujuh butir terlalu panjang untuk Ibu K.; perhatiannya menurun di butir 6–7, padahal butir 7 adalah komitmen Ibu K. sendiri. (2) Cadangan “saya mengecek Selasa dan Kamis” adalah komitmen baru M yang belum diperiksa terhadap jadwal tugas M yang lain. (3) M tidak menanyakan pendapat A1 tentang perubahan beban; A1 tidak hadir.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Tindak lanjut catatan kritis:</strong> (1) Setelah pertemuan saya mengirim ringkasan tertulis butir 2 dan 7 secara terpisah kepada Ibu K. (L-4a). (2) Saya memeriksa jadwal dan menemukan tenggat laporan praktikum lain pada Kamis 3 Des; slot cadangan itu ternyata tidak terpakai karena A3 tersedia, tetapi saya mencatatnya sebagai risiko. (3) Saya mengirim pesan ke A1 Kamis 19 Nov 16.20 menjelaskan rumusan final; A1 menjawab “tetap bisa 3 kelas/minggu” (L-1b).</p>
+<hr>
+</section>
+</section>
+<section id="bagian-4-evaluasi-jalur-ganda-dual-track-evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-4-evaluasi-jalur-ganda-dual-track-evaluation">Bagian 4: Evaluasi Jalur Ganda (<em>Dual-Track Evaluation</em>)</h2>
+<section id="jalur-tugas-task-outcome" class="level3">
+<h3 class="anchored" data-anchor-id="jalur-tugas-task-outcome">1. Jalur Tugas (<em>Task Outcome</em>)</h3>
+<ul>
+<li>Status per 30 November 2026 (akhir minggu 1 dari 2):
+<ul>
+<li><strong>Tuntas sesuai tenggat dan definisi selesai:</strong> Butir 1 (label 16 alat, akun lab, latihan Pak R.), butir 2 (kabar Ibu K. tentang A3, 23 Nov 11.20, sebelum tenggat 13.00), butir 4 minggu 1 (kolom menit terisi 5/5 hari).</li>
+<li><strong>Tuntas tetapi tidak tepat waktu:</strong> Butir 6 (laporan checkpoint) terkirim 19.10, bukan 16.00. Tenggat dinegosiasi ulang sebelum terlewati dan disetujui Pak R.</li>
+<li><strong>Belum terjadi:</strong> Butir 7 (review akhir, 7 Des). Butir 3 dan 4 minggu 2 sedang berjalan.</li>
+</ul></li>
+<li><strong>Kendala nyata:</strong> (a) sinyal putus Rabu 25 Nov menghasilkan 14 transaksi kertas dan membuat Pak R. mencatat 12 menit, satu-satunya hari yang melewati batas; penyebabnya urutan kerja (kertas sampai ke Pak R. sebelum diinput), bukan sistemnya, dan urutan diubah pada checkpoint; (b) label MM-09 gagal terpindai karena permukaan melengkung; (c) akses akun lab terlambat satu hari karena Ibu K. rapat.</li>
+<li><strong>Yang belum bisa saya klaim:</strong> “16 dari 16 alat punya nama pemegang terakhir” berasal dari satu kali pengecekan Pak R. pada hari Jumat minggu 1. Itu memenuhi bentuk ambangnya, tetapi belum mencakup 2 minggu. Manfaat utama, melacak alat yang <strong>hilang</strong>, masih belum teruji karena belum ada alat hilang.</li>
+</ul>
+</section>
+<section id="jalur-relasi-relationship-outcome" class="level3">
+<h3 class="anchored" data-anchor-id="jalur-relasi-relationship-outcome">2. Jalur Relasi (<em>Relationship Outcome</em>)</h3>
+<ul>
+<li><strong>Ketegangan peran yang terjadi:</strong> (1) Di pertemuan 19 Nov ada momen saat Ibu K. dan Pak R. saling pandang setelah saya menyampaikan penolakan A2 (O-2). Saya membacanya sebagai kekhawatiran bahwa beban akan dialihkan ke Pak R. Saya meredakannya dengan mencoret O4 di depan Pak R. (T-12), bukan dengan meyakinkan bahwa “tidak akan berat”. (2) Pada hari Rabu 25 Nov, Pak R. mengirim pesan singkat “Hari ini repot kertasnya.” Saya tidak membela sistem. Saya membalas: “Terima kasih Bapak sudah mencatat menitnya. Besok saya datang sebelum kelas terakhir untuk lihat alur kertasnya, supaya kertas sudah diinput sebelum sampai ke Bapak.” Kamis menitnya turun ke 7. (3) Keterlambatan laporan saya pada 27 Nov berpotensi mengikis kepercayaan; saya memberi tahu sebelum tenggat, menyebut alasan konkret, dan menawarkan tenggat baru untuk disetujui, bukan memberitahukannya sesudah lewat.</li>
+<li><strong>Tanda relasi yang saya amati (bukan klaim tentang perasaan mereka):</strong> Pak R. mengusulkan sendiri perubahan syarat henti (T-25) dan pengecualian kelas Jumat (T-17); ia menulis “Ok. Asal kertasnya sudah diinput dulu” alih-alih meminta berhenti. Ibu K. menepati komitmennya 1 jam 40 menit sebelum tenggat. Saya membaca ini sebagai tanda bahwa para pihak merasa memiliki kesepakatan, tetapi saya tidak bisa memastikan rasa percaya mereka dari evidence ini saja.</li>
+<li><strong>Ruang untuk berkata “tidak” yang benar-benar dipakai:</strong> A2 berkata tidak (minggu 2), Ibu K. berkata tidak (<em>data logger</em>, janji SOP), Pak R. berkata tidak (opsi 1 minggu, penundaan, kewajiban membuka daftar setiap hari). Tidak satu pun penolakan itu saya tawar ulang.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="rubrik-penilaian-mandiri-umpan-balik-sejawat" class="level2">
+<h2 class="anchored" data-anchor-id="rubrik-penilaian-mandiri-umpan-balik-sejawat">Rubrik Penilaian Mandiri &amp; Umpan Balik Sejawat</h2>
+<p>Skor diri diisi sebelum melihat skor observer S.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 19%">
+<col style="width: 23%">
+<col style="width: 23%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">No</th>
+<th style="text-align: left;">Aspek Penilaian Kinerja</th>
+<th style="text-align: center;">Skor diri (1 - 4)</th>
+<th style="text-align: center;">Bukti Perilaku / Catatan Perbaikan Mandiri</th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>1</strong></td>
+<td style="text-align: left;"><strong>Kejelasan Kepentingan (Bukan Posisi)</strong></td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Posisi dan kepentingan empat pihak dipetakan (Bagian 1), termasuk A2 yang tidak hadir. Titik temu “jejak pemegang sebelum audit, tanpa menilai laboran” disetujui K dan R (T-05–T-06).</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>2</strong></td>
+<td style="text-align: left;"><strong>Presisi Formula Kesepakatan</strong></td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Tujuh butir dengan satu pemilik, tenggat jam, definisi selesai, dan tindak lanjut.</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>3</strong></td>
+<td style="text-align: left;"><strong>Tanggung Jawab Pemeliharaan Komitmen</strong></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Checkpoint dilakukan dua hari sebelum tenggat pada butir 1 dan 6, dan menemukan masalah nyata (akses akun; 12 menit). Saya memberi diri 2 karena laporan saya sendiri terlambat 3 jam 10 menit. Observer memberi 3 karena tenggat dinegosiasi ulang sebelum terlewati.</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>4</strong></td>
+<td style="text-align: left;"><strong>Keseimbangan Jalur Ganda</strong></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Tiga pihak berkata “tidak” dan tidak ditawar ulang; opsi yang melanggar batas Pak R. dicoret sendiri (T-12); beban cadangan diambil saya, bukan Pak R. Catatan observer: A1 tidak diajak bicara di pertemuan; ditindaklanjuti lewat pesan (L-1b).</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<section id="pemetaan-ke-evidence-wajib-minggu-10" class="level3">
+<h3 class="anchored" data-anchor-id="pemetaan-ke-evidence-wajib-minggu-10">Pemetaan ke evidence wajib Minggu 10</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Evidence wajib / fokus penilaian</th>
+<th style="text-align: left;">Letak dalam lembar kerja</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Barrier map (money, time, effort, capability, risk, change, authority)</td>
+<td style="text-align: left;">Bagian A</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Authority map</td>
+<td style="text-align: left;">Bagian B; T-03, T-14–T-16, T-20–T-22, T-26</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Options dan trade-off yang dibahas tanpa tekanan / tanpa melampaui authority</td>
+<td style="text-align: left;">Bagian C; T-09–T-22</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Wish, intention, commitment, agreement, action dibedakan</td>
+<td style="text-align: left;">Bagian D; T-15–T-16, T-27</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Agreement dengan owner, tindakan, deadline, review</td>
+<td style="text-align: left;">Bagian 2 (butir 1–7); L-4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bukti action atau review dalam commitment loop</td>
+<td style="text-align: left;">Bagian 3 (butir 1, 6, 2); L-6, L-7, L-8, L-9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">“Tidak” dihormati secara jelas</td>
+<td style="text-align: left;">Bagian C kolom hasil; T-12, T-21–T-22, T-26; L-1 (A2)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="daftar-lampiran" class="level3">
+<h3 class="anchored" data-anchor-id="daftar-lampiran">Daftar lampiran</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Kode</th>
+<th style="text-align: left;">Isi</th>
+<th style="text-align: left;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">L-1 / L-1b</td>
+<td style="text-align: left;">Pesan asisten A1 dan A2, 17 Nov; pesan A1, 19 Nov</td>
+<td style="text-align: left;">Belum ditempel (lihat Deklarasi AI)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">L-2</td>
+<td style="text-align: left;">Draf usulan v1 dan v2</td>
+<td style="text-align: left;">Belum ditempel</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">L-3</td>
+<td style="text-align: left;">Pesan Pak R. meneruskan draf, 18 Nov</td>
+<td style="text-align: left;">Belum ditempel</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">L-4 / L-4a</td>
+<td style="text-align: left;">Syarat penggunaan data bertanda tangan; ringkasan butir 2 dan 7 untuk Ibu K.</td>
+<td style="text-align: left;">Belum ditempel</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">L-5</td>
+<td style="text-align: left;">Nota label</td>
+<td style="text-align: left;">Belum ditempel</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">L-6 / L-6a</td>
+<td style="text-align: left;">Foto 16 alat berlabel, video uji “Cari Alat”; pesan akses akun lab</td>
+<td style="text-align: left;">Belum ditempel</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">L-7</td>
+<td style="text-align: left;">Pesan Ibu K. tentang A3, 23 Nov</td>
+<td style="text-align: left;">Belum ditempel</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">L-8</td>
+<td style="text-align: left;">Foto kolom menit buku besar minggu 1</td>
+<td style="text-align: left;">Belum ditempel</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">L-9</td>
+<td style="text-align: left;">Laporan checkpoint 27 Nov dan balasan Pak R. &amp; Ibu K.</td>
+<td style="text-align: left;">Belum ditempel</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">L-10</td>
+<td style="text-align: left;">Notulen review akhir 7 Des</td>
+<td style="text-align: left;">Belum terjadi</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="prioritas-perbaikan-saya" class="level2">
+<h2 class="anchored" data-anchor-id="prioritas-perbaikan-saya">Prioritas Perbaikan Saya</h2>
+<p><strong>Satu perilaku:</strong> saat menutup kesepakatan dengan pihak berwenang, ringkas pembacaan ulang menjadi butir yang dimiliki <strong>orang yang sedang diajak bicara</strong>, dan konfirmasi butir itu secara langsung kepadanya. Di pertemuan ini perhatian Ibu K. menurun tepat saat butir yang ia miliki (butir 7) dibacakan (O-7).</p>
+<p><strong>Cara replay:</strong> sebelum review akhir 7 Desember, saya menyiapkan pembacaan ulang dalam dua lapis: (1) satu kalimat per pemilik (“Ibu: keputusan tertulis lanjut/berhenti/usul ke Kajur, hari ini; Bapak: koreksi notulen sampai Selasa 12.00; saya: kirim notulen hari ini 15.00”); (2) rincian di lembar tertulis. Saya berlatih sekali dengan observer S., maksimal 60 detik.</p>
+<p><strong>Evidence berikutnya:</strong> rekaman dan catatan observer pada review akhir 7 Desember; notulen yang dikoreksi Pak R. (L-10).</p>
+<p><strong>Indikator keberhasilan:</strong> setiap pemilik butir mengulang atau mengiyakan butirnya sendiri secara lisan; observer tidak mencatat tanda perhatian menurun saat butir milik pihak berwenang dibacakan; tidak ada komitmen baru saya yang belum diperiksa terhadap jadwal saya (catatan kritis 2).</p>
+<hr>
+</section>
+<section id="deklarasi-penggunaan-ai-dan-human-review" class="level2">
+<h2 class="anchored" data-anchor-id="deklarasi-penggunaan-ai-dan-human-review">Deklarasi Penggunaan AI dan Human Review</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Aspek</th>
+<th style="text-align: left;">Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Alat AI</td>
+<td style="text-align: left;">Claude (asisten AI berbasis model bahasa, Anthropic)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Peran AI</td>
+<td style="text-align: left;">AI <strong>menyusun seluruh draf lembar kerja ini</strong>: barrier map, authority map, opsi dan trade-off, tabel wish–action, serta prioritas perbaikan, berdasarkan lembar kerja Minggu 07 dan 09 dan template Bab 10.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Data yang dibagikan</td>
+<td style="text-align: left;">Lembar kerja Minggu 07 dan 09 (nama sudah disamarkan) dan template Bab 10.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Prompt kunci</td>
+<td style="text-align: left;">“Kerjakan lembar kerja Bab 10 sebagai mahasiswa, lanjutkan kasus label QR di Lab Konversi Energi, penuhi evidence wajib Minggu 10, keluaran dalam .qmd.”</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Batas kejujuran</strong></td>
+<td style="text-align: left;"><strong>Transcript pertemuan 19 November, catatan observer, pesan asisten, pesan dan tanda tangan Ibu K., angka menit Pak R., hasil checkpoint, dan seluruh lampiran L-1 sampai L-9 dalam dokumen ini adalah naskah contoh yang dibuat AI, bukan rekaman peristiwa nyata.</strong> Tanggal-tanggal di dokumen ini juga dirancang, bukan dicatat. Dokumen ini hanya layak dinilai sebagai <em>role-play script</em> atau sebagai rancangan, sampai setiap bagian diganti dengan evidence dari pertemuan, pesan, dan uji coba yang benar-benar terjadi.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Verifikasi mandiri yang wajib dilakukan sebelum dikumpulkan</td>
+<td style="text-align: left;">(1) Mencocokkan setiap kutipan transcript dengan rekaman nyata; (2) menempel lampiran L-1 sampai L-9 yang asli; (3) meminta observer S. menulis ulang catatan dan skornya sendiri; (4) memastikan Pak R., Ibu K., dan para asisten setuju percakapan dan pesannya dipakai sebagai evidence; (5) menghapus atau merevisi setiap bagian yang tidak terjadi.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Penilaian kontribusi</td>
+<td style="text-align: left;">Penggunaan AI dalam dokumen ini mencakup substansi, bukan sekadar penyuntingan bahasa. Assessor perlu menilai evidence asli, bukan kualitas naskah ini.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Privasi</td>
+<td style="text-align: left;">Semua nama disamarkan; inisial mahasiswa dan asisten bersifat fiktif.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Authority</td>
+<td style="text-align: left;">Saya dan Pak R. tidak berwenang memutuskan uji coba, penggunaan data, penugasan asisten, atau SOP. Keputusan uji coba dan data ada pada Ibu K.; SOP permanen ada pada Ketua Jurusan.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>“Bahasa mengantarkan kita pada jembatan pemahaman, tetapi kesepakatan yang berpusat pada tanggung jawab bersama adalah kendaraan yang membawa kita melintasi jembatan tersebut menuju kenyataan tindakan.”</em></p>
 
 
 </section>
